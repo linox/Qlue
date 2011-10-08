@@ -86,6 +86,7 @@
 			4B83CC271440E45100C6D8A7 /* PBXTextBookmark */ = 4B83CC271440E45100C6D8A7 /* PBXTextBookmark */;
 			4B83CC281440E45100C6D8A7 /* PBXTextBookmark */ = 4B83CC281440E45100C6D8A7 /* PBXTextBookmark */;
 			4B83CC291440E45100C6D8A7 /* PBXTextBookmark */ = 4B83CC291440E45100C6D8A7 /* PBXTextBookmark */;
+			4B83CC2C1440E47F00C6D8A7 /* PBXTextBookmark */ = 4B83CC2C1440E47F00C6D8A7 /* PBXTextBookmark */;
 			4B8D2DAC142A9B62009256E6 = 4B8D2DAC142A9B62009256E6 /* PBXTextBookmark */;
 			4B8F62A3143FB71200A21F35 = 4B8F62A3143FB71200A21F35 /* PBXTextBookmark */;
 			4B8F62C6143FBEFD00A21F35 = 4B8F62C6143FBEFD00A21F35 /* PBXTextBookmark */;
@@ -259,6 +260,16 @@
 		vrLoc = 0;
 	};
 	4B83CC291440E45100C6D8A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
+		name = "QuizapAppDelegate.m: 35";
+		rLen = 0;
+		rLoc = 1101;
+		rType = 0;
+		vrLen = 1427;
+		vrLoc = 411;
+	};
+	4B83CC2C1440E47F00C6D8A7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
 		name = "QuizapAppDelegate.m: 35";

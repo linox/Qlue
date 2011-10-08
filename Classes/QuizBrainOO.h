@@ -7,19 +7,30 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "QuizBrain.h"
 #import "QAMultiChoiceQuestion.h"
 
 
-@interface QuizBrainOO : QuizBrain {
-
+@interface QuizBrainOO : NSObject {
+	NSMutableArray *questions;
+	NSInteger correctAnswers;
+	NSInteger wrongAnswers;
+	NSInteger pos;
 }
 
-//aArray = array with QAMultiChoiceQuestions
 - (id) initWithQuestions:(NSMutableArray *) qArray;
+
+@property (nonatomic, retain) NSMutableArray *questions;
+@property (nonatomic, assign) NSInteger correctAnswers;
+@property (nonatomic, assign) NSInteger wrongAnswers;
+@property (nonatomic, assign) NSInteger pos;
 
 - (QAMultiChoiceQuestion *) questionAtIndex: (NSInteger) index;
 - (QAMultiChoiceQuestion *) questionAtCurrentPosition;
+- (NSInteger) numberOfQuestions;
 - (void) checkQuestion:(NSString *) aStr;
+- (void) increaseCorrectScore;
+- (void) increaseWrongScore;
+- (BOOL) advancePosition;
+- (void) reset;
 
 @end

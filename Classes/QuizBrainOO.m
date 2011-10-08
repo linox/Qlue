@@ -10,37 +10,58 @@
 
 
 @implementation QuizBrainOO
+@synthesize questions, correctAnswers,wrongAnswers;
+@synthesize pos;
 
-
-
-//- (NSInteger) numberOfQuestions {
-//	
-//	return [questions count];
-//	
-//}
-//
-//- (NSString *) questionAtIndex: (NSInteger) index {
-//	
-//	return [questions objectAtIndex:index];
-//	
-//}
-
-- (id) initWithQuestions:(NSMutableArray *) qArray {
-	//FIXME: Add introspection to check that qArray contains QAMultiChoiceQuestions...
+- (id) initWithQuestions:(NSMutableArray *)qArray {
 	
-	if (self = [super initWithQuestions: qArray andAnswers:nil]) {
-		
+	if (self = [super init]) {
+		self.questions = qArray; //qArray is retained
 	}
+	
+	NSLog(@"initWithQuestions: %@", [questions objectAtIndex:0]);//DEBUG:
 	
 	return self;
 }
+
+- (BOOL) advancePosition {
+	
+	if (self.pos < [self numberOfQuestions]) {
+		self.pos++;
+		return YES;
+	}
+	
+	return NO;
+	
+}
+
+- (void) reset {
+	self.pos = 0;
+	self.correctAnswers = 0;
+	self.wrongAnswers = 0;
+}
+
+- (void) increaseCorrectScore {
+	correctAnswers++;
+}
+
+- (void) increaseWrongScore {
+	wrongAnswers++;
+}
+
+- (NSInteger) numberOfQuestions {
+	
+	return [questions count];
+	
+}
+
 - (QAMultiChoiceQuestion *) questionAtIndex: (NSInteger) index {
 	
 	return [questions objectAtIndex:index];
 	
 }
 
-- (QAMultiChoiceQuestion *) questionAtCurrentPosition{
+- (QAMultiChoiceQuestion *) questionAtCurrentPosition {
 	
 	return [questions objectAtIndex:self.pos-1];
 	
@@ -54,19 +75,9 @@
 	}
 }
 
-//- (void) checkQuestionAtIndex:(NSInteger) q WithStringAnswer:(NSString *) aStr {
-//	if ([[self questionAtIndex:q] checkAnswer:aStr]) {
-//		[self increaseCorrectScore];
-//	} else {
-//		[self increaseWrongScore];
-//	}
-//}
-
 - (void) dealloc {
 	[questions release];
-	[answers release];
 	[super dealloc];
-	
 }
 
 

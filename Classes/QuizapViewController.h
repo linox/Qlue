@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QuizBrain.h"
 #import "QuizBrainOO.h"
 #import "QAMultiChoiceQuestion.h"
 #import "HighscoreViewController.h"

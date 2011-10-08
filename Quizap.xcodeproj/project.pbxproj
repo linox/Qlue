@@ -15,7 +15,6 @@
 		2899E5220DE3E06400AC0155 /* QuizapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* QuizapViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* QuizapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */; };
-		4B2F54C814276AD900A018C3 /* QuizBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2F54C714276AD900A018C3 /* QuizBrain.m */; };
 		4B8D2DE8142AA6D0009256E6 /* QAMultiChoiceQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D2DE7142AA6D0009256E6 /* QAMultiChoiceQuestion.m */; };
 		4BCA9689143F1085006BC7B6 /* QuizBrainOO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA9688143F1085006BC7B6 /* QuizBrainOO.m */; };
 		4BCA9747143F3AFA006BC7B6 /* HighscoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA9745143F3AFA006BC7B6 /* HighscoreViewController.m */; };
@@ -35,8 +34,6 @@
 		28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizapViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Quizap_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quizap_Prefix.pch; sourceTree = "<group>"; };
-		4B2F54C614276AD900A018C3 /* QuizBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizBrain.h; sourceTree = "<group>"; };
-		4B2F54C714276AD900A018C3 /* QuizBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizBrain.m; sourceTree = "<group>"; };
 		4B8D2DE6142AA6D0009256E6 /* QAMultiChoiceQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAMultiChoiceQuestion.h; sourceTree = "<group>"; };
 		4B8D2DE7142AA6D0009256E6 /* QAMultiChoiceQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAMultiChoiceQuestion.m; sourceTree = "<group>"; };
 		4BCA9687143F1085006BC7B6 /* QuizBrainOO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizBrainOO.h; sourceTree = "<group>"; };
@@ -68,8 +65,6 @@
 				1D3623250D0F684500981E51 /* QuizapAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* QuizapViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */,
-				4B2F54C614276AD900A018C3 /* QuizBrain.h */,
-				4B2F54C714276AD900A018C3 /* QuizBrain.m */,
 				4BCA9687143F1085006BC7B6 /* QuizBrainOO.h */,
 				4BCA9688143F1085006BC7B6 /* QuizBrainOO.m */,
 				4B8D2DE6142AA6D0009256E6 /* QAMultiChoiceQuestion.h */,
@@ -195,7 +190,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* QuizapAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* QuizapViewController.m in Sources */,
-				4B2F54C814276AD900A018C3 /* QuizBrain.m in Sources */,
 				4B8D2DE8142AA6D0009256E6 /* QAMultiChoiceQuestion.m in Sources */,
 				4BCA9689143F1085006BC7B6 /* QuizBrainOO.m in Sources */,
 				4BCA9747143F3AFA006BC7B6 /* HighscoreViewController.m in Sources */,

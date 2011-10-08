@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* QuizapAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {813, 513}}";
+			sepNavSelRange = "{475, 18}";
+			sepNavVisRange = "{0, 778}";
+		};
+	};
+	1D3623250D0F684500981E51 /* QuizapAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1417}}";
+			sepNavSelRange = "{1658, 0}";
+			sepNavVisRange = "{526, 1742}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Quizap */ = {
+		activeExec = 0;
+		executables = (
+			4B2F54B314276A3800A018C3 /* Quizap */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* QuizapViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {813, 546}}";
+			sepNavSelRange = "{920, 0}";
+			sepNavVisRange = "{30, 911}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {813, 2457}}";
+			sepNavSelRange = "{4078, 0}";
+			sepNavVisRange = "{2045, 983}";
+			sepNavWindowFrame = "{{283, 111}, {1151, 667}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4B2F54B314276A3800A018C3 /* Quizap */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Quizap */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Quizap */,
+		);
+		breakpoints = (
+			4B2F54FA1427767600A018C3 /* QuizapViewController.m:119 */,
+			4B2F55601427870000A018C3 /* QuizBrain.m:70 */,
+			4B2F55621427870200A018C3 /* QuizBrain.m:69 */,
+			4B8D2DB2142A9C2C009256E6 /* QuizapViewController.m:63 */,
+			4BCA97ED143F4EEF006BC7B6 /* QuizapViewController.m:97 */,
+		);
+		codeSenseManager = 4B2F54C414276A4C00A018C3 /* Code sense */;
+		executables = (
+			4B2F54B314276A3800A018C3 /* Quizap */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					635,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 339722530;
+			PBXWorkspaceStateSaveDate = 339722530;
+		};
+		perUserProjectItems = {
+			4B8D2DAC142A9B62009256E6 /* PBXTextBookmark */ = 4B8D2DAC142A9B62009256E6 /* PBXTextBookmark */;
+			4B8F62A3143FB71200A21F35 /* PBXTextBookmark */ = 4B8F62A3143FB71200A21F35 /* PBXTextBookmark */;
+			4B8F62C6143FBEFD00A21F35 /* PBXTextBookmark */ = 4B8F62C6143FBEFD00A21F35 /* PBXTextBookmark */;
+			4B8F62C7143FBEFD00A21F35 /* PBXTextBookmark */ = 4B8F62C7143FBEFD00A21F35 /* PBXTextBookmark */;
+			4B8F62C9143FBEFD00A21F35 /* PBXTextBookmark */ = 4B8F62C9143FBEFD00A21F35 /* PBXTextBookmark */;
+			4B8F62CC143FBEFD00A21F35 /* PBXTextBookmark */ = 4B8F62CC143FBEFD00A21F35 /* PBXTextBookmark */;
+			4B8F62CE143FBEFD00A21F35 /* PBXTextBookmark */ = 4B8F62CE143FBEFD00A21F35 /* PBXTextBookmark */;
+			4B8F62CF143FBEFD00A21F35 /* PBXTextBookmark */ = 4B8F62CF143FBEFD00A21F35 /* PBXTextBookmark */;
+			4B8F62E3143FC0F800A21F35 /* PBXTextBookmark */ = 4B8F62E3143FC0F800A21F35 /* PBXTextBookmark */;
+			4B8F62E4143FC0F800A21F35 /* PBXTextBookmark */ = 4B8F62E4143FC0F800A21F35 /* PBXTextBookmark */;
+			4B8F62E5143FC0F800A21F35 /* PBXTextBookmark */ = 4B8F62E5143FC0F800A21F35 /* PBXTextBookmark */;
+			4B8F62E6143FC0F800A21F35 /* PBXTextBookmark */ = 4B8F62E6143FC0F800A21F35 /* PBXTextBookmark */;
+			4B8F62F6143FC13300A21F35 /* PBXTextBookmark */ = 4B8F62F6143FC13300A21F35 /* PBXTextBookmark */;
+			4B8F6302143FC24F00A21F35 /* PBXTextBookmark */ = 4B8F6302143FC24F00A21F35 /* PBXTextBookmark */;
+			4BCA9532143EE797006BC7B6 /* PBXTextBookmark */ = 4BCA9532143EE797006BC7B6 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4B2F54C314276A4C00A018C3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4B2F54B314276A3800A018C3 /* Quizap */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Quizap;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	4B2F54C314276A4C00A018C3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4B2F54C414276A4C00A018C3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4B2F54C614276AD900A018C3 /* QuizBrain.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {813, 520}}";
+			sepNavSelRange = "{861, 0}";
+			sepNavVisRange = "{0, 1024}";
+			sepNavWindowFrame = "{{15, 106}, {1151, 667}}";
+		};
+	};
+	4B2F54C714276AD900A018C3 /* QuizBrain.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 1235}}";
+			sepNavSelRange = "{1461, 0}";
+			sepNavVisRange = "{785, 852}";
+			sepNavWindowFrame = "{{92, 92}, {1151, 667}}";
+		};
+	};
+	4B2F54FA1427767600A018C3 /* QuizapViewController.m:119 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
+		functionName = "-initWithNibName:bundle:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 119;
+		modificationTime = 339693296.470658;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	4B2F55601427870000A018C3 /* QuizBrain.m:70 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 4B2F54C714276AD900A018C3 /* QuizBrain.m */;
+		functionName = "-checkQuestion:WithAnswer:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 70;
+		location = Quizap;
+		modificationTime = 339693296.471149;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	4B2F55621427870200A018C3 /* QuizBrain.m:69 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 4B2F54C714276AD900A018C3 /* QuizBrain.m */;
+		functionName = "-checkQuestion:WithAnswer:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 69;
+		modificationTime = 339693296.4712831;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	4B8D2DAC142A9B62009256E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4B8D2DAD142A9B62009256E6 /* NSObjCRuntime.h */;
+		name = "NSObjCRuntime.h: 265";
+		rLen = 77;
+		rLoc = 10501;
+		rType = 0;
+		vrLen = 770;
+		vrLoc = 10202;
+	};
+	4B8D2DAD142A9B62009256E6 /* NSObjCRuntime.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSObjCRuntime.h;
+		path = /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h;
+		sourceTree = "<absolute>";
+	};
+	4B8D2DB2142A9C2C009256E6 /* QuizapViewController.m:63 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 63;
+		modificationTime = 339693296.471415;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	4B8D2DE6142AA6D0009256E6 /* QAMultiChoiceQuestion.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {813, 513}}";
+			sepNavSelRange = "{911, 0}";
+			sepNavVisRange = "{0, 964}";
+			sepNavWindowFrame = "{{17, 108}, {1151, 667}}";
+		};
+	};
+	4B8D2DE7142AA6D0009256E6 /* QAMultiChoiceQuestion.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {813, 1144}}";
+			sepNavSelRange = "{1345, 0}";
+			sepNavVisRange = "{91, 985}";
+		};
+	};
+	4B8F62A3143FB71200A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4BCA9745143F3AFA006BC7B6 /* HighscoreViewController.m */;
+		name = "HighscoreViewController.m: 41";
+		rLen = 0;
+		rLoc = 1043;
+		rType = 0;
+		vrLen = 1026;
+		vrLoc = 693;
+	};
+	4B8F62C6143FBEFD00A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4BCA9744143F3AFA006BC7B6 /* HighscoreViewController.h */;
+		name = "HighscoreViewController.h: 23";
+		rLen = 0;
+		rLoc = 501;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	4B8F62C7143FBEFD00A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* QuizapAppDelegate.h */;
+		name = "QuizapAppDelegate.h: 23";
+		rLen = 18;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 778;
+		vrLoc = 0;
+	};
+	4B8F62C9143FBEFD00A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* QuizapViewController.h */;
+		name = "QuizapViewController.h: 39";
+		rLen = 0;
+		rLoc = 920;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 30;
+	};
+	4B8F62CC143FBEFD00A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4B8D2DE7142AA6D0009256E6 /* QAMultiChoiceQuestion.m */;
+		name = "QAMultiChoiceQuestion.m: 55";
+		rLen = 0;
+		rLoc = 1345;
+		rType = 0;
+		vrLen = 985;
+		vrLoc = 91;
+	};
+	4B8F62CE143FBEFD00A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4BCA9688143F1085006BC7B6 /* QuizBrainOO.m */;
+		name = "QuizBrainOO.m: 48";
+		rLen = 0;
+		rLoc = 852;
+		rType = 0;
+		vrLen = 794;
+		vrLoc = 530;
+	};
+	4B8F62CF143FBEFD00A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4B8D2DE6142AA6D0009256E6 /* QAMultiChoiceQuestion.h */;
+		name = "QAMultiChoiceQuestion.h: 24";
+		rLen = 0;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 964;
+		vrLoc = 0;
+	};
+	4B8F62E3143FC0F800A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4BCA9687143F1085006BC7B6 /* QuizBrainOO.h */;
+		name = "QuizBrainOO.h: 23";
+		rLen = 41;
+		rLoc = 494;
+		rType = 0;
+		vrLen = 542;
+		vrLoc = 0;
+	};
+	4B8F62E4143FC0F800A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4B2F54C714276AD900A018C3 /* QuizBrain.m */;
+		name = "QuizBrain.m: 83";
+		rLen = 0;
+		rLoc = 1434;
+		rType = 0;
+		vrLen = 767;
+		vrLoc = 876;
+	};
+	4B8F62E5143FC0F800A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4B2F54C614276AD900A018C3 /* QuizBrain.h */;
+		name = "QuizBrain.h: 34";
+		rLen = 0;
+		rLoc = 861;
+		rType = 0;
+		vrLen = 1024;
+		vrLoc = 0;
+	};
+	4B8F62E6143FC0F800A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
+		name = "QuizapViewController.m: 146";
+		rLen = 0;
+		rLoc = 4078;
+		rType = 0;
+		vrLen = 983;
+		vrLoc = 2045;
+	};
+	4B8F62F6143FC13300A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
+		name = "QuizapAppDelegate.m: 50";
+		rLen = 0;
+		rLoc = 1658;
+		rType = 0;
+		vrLen = 1750;
+		vrLoc = 526;
+	};
+	4B8F6302143FC24F00A21F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
+		name = "QuizapAppDelegate.m: 50";
+		rLen = 0;
+		rLoc = 1658;
+		rType = 0;
+		vrLen = 1742;
+		vrLoc = 526;
+	};
+	4BCA9532143EE797006BC7B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4BCA9533143EE797006BC7B6 /* stdlib.h */;
+		name = "stdlib.h: 224";
+		rLen = 20;
+		rLoc = 7517;
+		rType = 0;
+		vrLen = 1502;
+		vrLoc = 10953;
+	};
+	4BCA9533143EE797006BC7B6 /* stdlib.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stdlib.h;
+		path = /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdlib.h;
+		sourceTree = "<absolute>";
+	};
+	4BCA9687143F1085006BC7B6 /* QuizBrainOO.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {813, 513}}";
+			sepNavSelRange = "{494, 41}";
+			sepNavVisRange = "{0, 542}";
+		};
+	};
+	4BCA9688143F1085006BC7B6 /* QuizBrainOO.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {813, 962}}";
+			sepNavSelRange = "{852, 0}";
+			sepNavVisRange = "{530, 794}";
+			sepNavWindowFrame = "{{38, 85}, {1151, 667}}";
+		};
+	};
+	4BCA9744143F3AFA006BC7B6 /* HighscoreViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {813, 513}}";
+			sepNavSelRange = "{501, 0}";
+			sepNavVisRange = "{0, 539}";
+			sepNavWindowFrame = "{{15, 106}, {1151, 667}}";
+		};
+	};
+	4BCA9745143F3AFA006BC7B6 /* HighscoreViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1079}}";
+			sepNavSelRange = "{1043, 0}";
+			sepNavVisRange = "{693, 1026}";
+			sepNavWindowFrame = "{{61, 64}, {1151, 667}}";
+		};
+	};
+	4BCA97ED143F4EEF006BC7B6 /* QuizapViewController.m:97 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
+		functionName = "-nextQuestion";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 97;
+		location = Quizap;
+		modificationTime = 339693300.657446;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+}

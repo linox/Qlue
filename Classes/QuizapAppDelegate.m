@@ -32,7 +32,7 @@
 	//First question
 	QAMultiChoiceQuestion *mq = [[QAMultiChoiceQuestion alloc] initWithQuestion:@"Vad betyder TDM?" andAnswer:@"Therapeutic Drug Monitoring"];
 	[mq addChoice:@"Transitional Drug Manipulation" withBoolValue:NO];
-	[mq addChoice:@"Takychardic Dose Management" withBoolValue:NO];
+	[mq addChoice:@"Trancendental Diagnosis Map" withBoolValue:NO];
 	NSMutableArray *initarray = [NSMutableArray arrayWithObjects:mq, nil];
 	[initarray retain];
 	[mq release]; //mq is retained in initializer of Brain...

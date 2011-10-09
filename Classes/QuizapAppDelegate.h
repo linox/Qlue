@@ -25,6 +25,6 @@
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet QuizapViewController *viewController;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
-@property (nonatomic, retain) QuizBrainOO *GlobalBrainOO;
+@property (nonatomic, readonly) QuizBrainOO *GlobalBrainOO;
 @end
 

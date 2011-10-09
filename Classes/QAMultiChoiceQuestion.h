@@ -19,10 +19,6 @@
 - (void) addChoice:(NSString*) aStr withBoolValue:(BOOL) isAnswer;
 - (BOOL) checkAnswer:(NSString*) anAnswer;
 - (NSMutableArray*) getAnswerArrayWithTrueCount:(NSInteger) tc andFalseCount:(NSInteger) fc;
-@property (nonatomic, copy) NSString *Question;
-@property (nonatomic, assign) NSMutableArray *trueAnswers; //Fixme: use retain, or make readonly...
-@property (nonatomic, assign) NSMutableArray *falseAnswers; // ...or dont use properties at all?
+
+@property (nonatomic, readonly) NSString *Question;
 @end
-
-
-//Remember to manage the supplied string....

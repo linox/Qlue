@@ -26,7 +26,7 @@
 
 - (BOOL) advancePosition {
 	
-	if (self.pos < [self numberOfQuestions]) {
+	if (self.pos < [self numberOfQuestions]-1) {
 		self.pos++;
 		return YES;
 	}
@@ -63,7 +63,7 @@
 
 - (QAMultiChoiceQuestion *) questionAtCurrentPosition {
 	
-	return [questions objectAtIndex:self.pos-1];
+	return [questions objectAtIndex:self.pos];
 	
 }
 - (void) checkQuestion:(NSString *) aStr {

@@ -25,7 +25,7 @@
     // Override point for customization after application launch.
 	[self.window addSubview:[navigationController view]];
 	// Set the view controller as the window's root view controller and display.
-    //self.window.rootViewController = self.viewController;
+    //self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
 	
 	

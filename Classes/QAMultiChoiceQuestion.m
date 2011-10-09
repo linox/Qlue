@@ -10,17 +10,17 @@
 
 
 @implementation QAMultiChoiceQuestion
-@synthesize Question;
-@synthesize trueAnswers, falseAnswers;
+@synthesize Question; // DEBUG: Perhaps better to synthesize questionString = Question? 
+
 
 - (id) initWithQuestion:(NSString *) q andAnswer:(NSString *) a {
 	
 	if (self = [super init]) {
 		//initialize ivars...
-		self.Question = q;
-		self.falseAnswers = [[NSMutableArray alloc] initWithObjects:nil];
+		Question = [q copy];
+		falseAnswers = [[NSMutableArray alloc] initWithObjects:nil];
 		//add initial answer to the true answer array
-		self.trueAnswers = [[NSMutableArray alloc] initWithObjects:a, nil];
+		trueAnswers = [[NSMutableArray alloc] initWithObjects:a, nil];
 	}
 	return self;
 }
@@ -29,9 +29,9 @@
 - (void) addChoice:(NSString*) aStr withBoolValue:(BOOL) isAnswer {
 
 	if (isAnswer) {
-		[self.trueAnswers addObject:aStr];
+		[trueAnswers addObject:aStr];
 	} else {
-		[self.falseAnswers addObject:aStr];
+		[falseAnswers addObject:aStr];
 	}
 
 }
@@ -39,7 +39,7 @@
 
 - (BOOL) checkAnswer:(NSString*) anAnswer {
 	//if anAnswer is found in the trueAnswer array it is a correct answer
-	NSInteger i = [self.trueAnswers indexOfObject:anAnswer];
+	NSInteger i = [trueAnswers indexOfObject:anAnswer];
 	NSLog(@"i = %d", i);
 	if (i != NSNotFound) {
 		NSLog(@"%@ is an answer!", anAnswer);
@@ -50,20 +50,20 @@
 	
 }
 
-// remember to memory management!
+// DEBUG: remember to memory manage!
 // and to check the size of return array which can be less than tc+fc;
 - (NSMutableArray*) getAnswerArrayWithTrueCount:(NSInteger) tc andFalseCount:(NSInteger) fc {
 
-	NSMutableArray *retval = [[NSMutableArray alloc] init];
+	NSMutableArray *retval = [[[NSMutableArray alloc] init] autorelease];
 
 	//do some bounds checking...
-	if (tc > [self.trueAnswers count]){
-		tc = [self.trueAnswers count];
+	if (tc > [trueAnswers count]){
+		tc = [trueAnswers count];
 	}
 		
 	
-	if (fc > [self.falseAnswers count]){
-		fc = [self.falseAnswers count];
+	if (fc > [falseAnswers count]){
+		fc = [falseAnswers count];
 	}
 	
 	int i;
@@ -80,6 +80,7 @@
 }
 
 - (void) dealloc {
+	[Question release];
 	[trueAnswers release];
 	[falseAnswers release];
 	[super dealloc];

@@ -30,7 +30,7 @@
 
 - (void) nextQuestion;
 - (void) showHighScore;
-- (void) reset;
+- (void) reset; // FIXME: rename to something better, like setup perhaps...
 
 - (IBAction) ButtonPressed:(id) sender;
 @property (nonatomic,retain) HighscoreViewController *highScore;

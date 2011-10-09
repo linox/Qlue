@@ -13,7 +13,6 @@
 
 @synthesize highScore, QLabel, ChoiceButton1, ChoiceButton2, ChoiceButton3;
 
-
 // Function to randomize objects in an array.
 // Called from sortUsingFunction in NSMutableArray 
 int randomSort(id obj1, id obj2, void *context ) {
@@ -24,39 +23,37 @@ int randomSort(id obj1, id obj2, void *context ) {
 }
 
 - (void) reset {
+	QAMultiChoiceQuestion *q;
+	NSMutableArray *buttons;
+	//Ok, not much here yet... but maybe more stuff later...
+	q = [BrainOO questionAtCurrentPosition];
+	[q retain]; // DEBUG: Is this necessary? The controller outlives its Brain model? q is part of Brain.
+	self.QLabel.text = [q Question]; // the question string...
+	
+	//Randomize answers
+	buttons = [q getAnswerArrayWithTrueCount:1 andFalseCount:2];
+	[buttons retain];
+	NSLog(@"aaa size=%d", [buttons count]);
+	[buttons sortUsingFunction:randomSort context:nil]; // randomize questions
+	[self.ChoiceButton1 setTitle:[buttons objectAtIndex:0] forState:UIControlStateNormal];
+	[self.ChoiceButton2 setTitle:[buttons objectAtIndex:1] forState:UIControlStateNormal];
+	[self.ChoiceButton3 setTitle:[buttons objectAtIndex:2] forState:UIControlStateNormal];
+	[buttons release];
+	[q release];
 
-	
-	[self nextQuestion];
-	
-//	QAMultiChoiceQuestion *q;
-//	NSMutableArray *buttons;
-	//q = [BrainOO questionAtIndex:0];
-//	[q retain];
-//	QLabel.text = [q Question]; // the question string...
-//	
-//	//Randomize answers
-//	buttons = [q getAnswerArrayWithTrueCount:1 andFalseCount:2];
-//	[buttons retain];
-//	NSLog(@"aaa size=%d", [buttons count]);
-//	[buttons sortUsingFunction:randomSort context:nil]; // randomize questions
-//	[ChoiceButton1 setTitle:[buttons objectAtIndex:0] forState:UIControlStateNormal];
-//	[ChoiceButton2 setTitle:[buttons objectAtIndex:1] forState:UIControlStateNormal];
-//	[ChoiceButton3 setTitle:[buttons objectAtIndex:2] forState:UIControlStateNormal];
-//	[buttons release];
-//	[q release];
-	
+	//[self nextQuestion];
 	
 }
 
 - (void) showHighScore {
-	//Fixme: LEEEEEEK!!
-	//if(self.highScore == nil) {
+
+	if(!self.highScore) {
 		HighscoreViewController *hs = [[HighscoreViewController alloc]
 									   initWithNibName:@"HighscoreViewController" bundle:[NSBundle mainBundle]];
 		self.highScore = hs;
 		[hs release];
 		NSLog(@"hello from highscore");
-	//}
+	}
 	
 	[self.highScore refresh];
 	[self.navigationController pushViewController:self.highScore animated:YES];
@@ -74,26 +71,15 @@ int randomSort(id obj1, id obj2, void *context ) {
 
 
 - (void) nextQuestion {
-	QAMultiChoiceQuestion *q;
-	NSMutableArray *buttons;
-	
 
 	if ([BrainOO advancePosition]) {
-	
-		q = [BrainOO questionAtCurrentPosition];
-		[q retain];
-		self.QLabel.text = [q Question]; // the question string...
 		
-		//Randomize answers
-		buttons = [q getAnswerArrayWithTrueCount:1 andFalseCount:2];
-		[buttons retain];
-		NSLog(@"aaa size=%d", [buttons count]);
-		[buttons sortUsingFunction:randomSort context:nil]; // randomize questions
-		[self.ChoiceButton1 setTitle:[buttons objectAtIndex:0] forState:UIControlStateNormal];
-		[self.ChoiceButton2 setTitle:[buttons objectAtIndex:1] forState:UIControlStateNormal];
-		[self.ChoiceButton3 setTitle:[buttons objectAtIndex:2] forState:UIControlStateNormal];
-		[buttons release];
-		[q release];
+		QuizapViewController *qavc = [[QuizapViewController alloc]
+									   initWithNibName:@"QuizapViewController" bundle:[NSBundle mainBundle]];
+
+		
+		[self.navigationController pushViewController:qavc animated:YES];
+		//[qavc reset];
 		
 
 	} else { 
@@ -145,7 +131,7 @@ int randomSort(id obj1, id obj2, void *context ) {
 	QuizapAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
 	BrainOO = [appDelegate.GlobalBrainOO retain];
 	
-	[BrainOO reset];
+	//[BrainOO reset];
 	
 //	NSMutableArray *buttons = [mq getAnswerArrayWithTrueCount:1 andFalseCount:2];
 //	[buttons retain];

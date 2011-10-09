@@ -17,9 +17,10 @@
 	QuizBrainOO *BrainOO;
 
 	IBOutlet UILabel *QLabel;
-	IBOutlet UIButton *ChoiceButton1;
+	IBOutlet UIButton *ChoiceButton1;//FIXME: remove these static buttons
 	IBOutlet UIButton *ChoiceButton2;
 	IBOutlet UIButton *ChoiceButton3;
+	NSMutableArray *ChoiceButtons;
 	
 	//NSMutableArray *buttons;
 	

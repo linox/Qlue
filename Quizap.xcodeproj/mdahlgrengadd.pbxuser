@@ -9,9 +9,9 @@
 	};
 	1D3623250D0F684500981E51 /* QuizapAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1495}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1482}}";
 			sepNavSelRange = "{598, 0}";
-			sepNavVisRange = "{1837, 1690}";
+			sepNavVisRange = "{1837, 1616}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Quizap */ = {
@@ -22,23 +22,25 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* QuizapViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {813, 533}}";
-			sepNavSelRange = "{716, 0}";
-			sepNavVisRange = "{0, 979}";
+			sepNavIntBoundsRect = "{{0, 0}, {813, 546}}";
+			sepNavSelRange = "{606, 0}";
+			sepNavVisRange = "{0, 1047}";
 			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {813, 2431}}";
-			sepNavSelRange = "{3740, 0}";
-			sepNavVisRange = "{2982, 1286}";
-			sepNavWindowFrame = "{{283, 111}, {1151, 667}}";
+			sepNavIntBoundsRect = "{{0, 0}, {939, 2769}}";
+			sepNavSelRange = "{5971, 0}";
+			sepNavVisRange = "{5532, 465}";
+			sepNavWindowFrame = "{{129, 111}, {1151, 667}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv7;
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 4B2F54B314276A3800A018C3 /* Quizap */;
+		activeSDKPreference = iphonesimulator4.3;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Quizap */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Quizap */,
@@ -77,83 +79,23 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 339806612;
-			PBXWorkspaceStateSaveDate = 339806612;
+			PBXPerProjectTemplateStateSaveDate = 339875949;
+			PBXWorkspaceStateSaveDate = 339875949;
 		};
 		perUserProjectItems = {
 			4B7CC11B14410E960045C4AA /* PBXTextBookmark */ = 4B7CC11B14410E960045C4AA /* PBXTextBookmark */;
-			4B7CC11D14410E960045C4AA /* PBXTextBookmark */ = 4B7CC11D14410E960045C4AA /* PBXTextBookmark */;
-			4B7CC11E14410E960045C4AA /* PBXTextBookmark */ = 4B7CC11E14410E960045C4AA /* PBXTextBookmark */;
-			4B7CC11F14410E960045C4AA /* PBXTextBookmark */ = 4B7CC11F14410E960045C4AA /* PBXTextBookmark */;
-			4B7CC12014410E960045C4AA /* PBXTextBookmark */ = 4B7CC12014410E960045C4AA /* PBXTextBookmark */;
-			4B7CC12114410E960045C4AA /* PBXTextBookmark */ = 4B7CC12114410E960045C4AA /* PBXTextBookmark */;
-			4B7CC12214410E960045C4AA /* PBXTextBookmark */ = 4B7CC12214410E960045C4AA /* PBXTextBookmark */;
-			4B7CC12314410E960045C4AA /* PBXTextBookmark */ = 4B7CC12314410E960045C4AA /* PBXTextBookmark */;
-			4B7CC12414410E960045C4AA /* PBXTextBookmark */ = 4B7CC12414410E960045C4AA /* PBXTextBookmark */;
 			4B7CC12514410E960045C4AA /* PBXTextBookmark */ = 4B7CC12514410E960045C4AA /* PBXTextBookmark */;
-			4B7CC12714410E960045C4AA /* PBXTextBookmark */ = 4B7CC12714410E960045C4AA /* PBXTextBookmark */;
-			4B7CC12814410E960045C4AA /* PBXTextBookmark */ = 4B7CC12814410E960045C4AA /* PBXTextBookmark */;
-			4B7CC12914410E960045C4AA /* PBXTextBookmark */ = 4B7CC12914410E960045C4AA /* PBXTextBookmark */;
-			4B7CC131144110EE0045C4AA /* PBXTextBookmark */ = 4B7CC131144110EE0045C4AA /* PBXTextBookmark */;
-			4B7CC132144110EE0045C4AA /* PBXTextBookmark */ = 4B7CC132144110EE0045C4AA /* PBXTextBookmark */;
-			4B7CC133144110EE0045C4AA /* PBXTextBookmark */ = 4B7CC133144110EE0045C4AA /* PBXTextBookmark */;
-			4B7CC134144110EE0045C4AA /* PBXTextBookmark */ = 4B7CC134144110EE0045C4AA /* PBXTextBookmark */;
 			4B7CC135144110EE0045C4AA /* PBXTextBookmark */ = 4B7CC135144110EE0045C4AA /* PBXTextBookmark */;
 			4B7CC136144110EE0045C4AA /* PBXTextBookmark */ = 4B7CC136144110EE0045C4AA /* PBXTextBookmark */;
-			4B7CC137144110EE0045C4AA /* PBXTextBookmark */ = 4B7CC137144110EE0045C4AA /* PBXTextBookmark */;
-			4B7CC138144110EE0045C4AA /* PBXTextBookmark */ = 4B7CC138144110EE0045C4AA /* PBXTextBookmark */;
-			4B7CC13D1441169F0045C4AA /* XCBuildMessageTextBookmark */ = 4B7CC13D1441169F0045C4AA /* XCBuildMessageTextBookmark */;
-			4B7CC13E1441169F0045C4AA /* PBXTextBookmark */ = 4B7CC13E1441169F0045C4AA /* PBXTextBookmark */;
-			4B7CC143144116B00045C4AA /* PBXTextBookmark */ = 4B7CC143144116B00045C4AA /* PBXTextBookmark */;
-			4B7CC144144116B00045C4AA /* PBXTextBookmark */ = 4B7CC144144116B00045C4AA /* PBXTextBookmark */;
 			4B7CC145144116B00045C4AA /* PBXTextBookmark */ = 4B7CC145144116B00045C4AA /* PBXTextBookmark */;
 			4B7CC146144116B00045C4AA /* PBXTextBookmark */ = 4B7CC146144116B00045C4AA /* PBXTextBookmark */;
-			4B7CC147144116B00045C4AA /* PBXTextBookmark */ = 4B7CC147144116B00045C4AA /* PBXTextBookmark */;
-			4B7CC148144116B00045C4AA /* PBXTextBookmark */ = 4B7CC148144116B00045C4AA /* PBXTextBookmark */;
-			4B7CC149144116B00045C4AA /* XCBuildMessageTextBookmark */ = 4B7CC149144116B00045C4AA /* XCBuildMessageTextBookmark */;
-			4B7CC14A144116B00045C4AA /* PBXTextBookmark */ = 4B7CC14A144116B00045C4AA /* PBXTextBookmark */;
-			4B7CC14F14411A5E0045C4AA /* PBXTextBookmark */ = 4B7CC14F14411A5E0045C4AA /* PBXTextBookmark */;
-			4B7CC15014411A5E0045C4AA /* PBXTextBookmark */ = 4B7CC15014411A5E0045C4AA /* PBXTextBookmark */;
-			4B7CC15114411A5E0045C4AA /* PBXTextBookmark */ = 4B7CC15114411A5E0045C4AA /* PBXTextBookmark */;
-			4B7CC15214411A5E0045C4AA /* PBXTextBookmark */ = 4B7CC15214411A5E0045C4AA /* PBXTextBookmark */;
-			4B7CC15314411A5E0045C4AA /* PBXTextBookmark */ = 4B7CC15314411A5E0045C4AA /* PBXTextBookmark */;
-			4B7CC15614411A7A0045C4AA /* PBXTextBookmark */ = 4B7CC15614411A7A0045C4AA /* PBXTextBookmark */;
-			4B7CC15914411B000045C4AA /* PBXTextBookmark */ = 4B7CC15914411B000045C4AA /* PBXTextBookmark */;
-			4B7CC16014411FE00045C4AA /* PBXTextBookmark */ = 4B7CC16014411FE00045C4AA /* PBXTextBookmark */;
-			4B7CC16114411FE00045C4AA /* PBXTextBookmark */ = 4B7CC16114411FE00045C4AA /* PBXTextBookmark */;
-			4B7CC16214411FE00045C4AA /* PBXTextBookmark */ = 4B7CC16214411FE00045C4AA /* PBXTextBookmark */;
-			4B7CC16314411FE00045C4AA /* PBXTextBookmark */ = 4B7CC16314411FE00045C4AA /* PBXTextBookmark */;
-			4B7CC168144120370045C4AA /* PBXTextBookmark */ = 4B7CC168144120370045C4AA /* PBXTextBookmark */;
-			4B7CC169144120370045C4AA /* PBXTextBookmark */ = 4B7CC169144120370045C4AA /* PBXTextBookmark */;
-			4B7CC16A144120370045C4AA /* PBXTextBookmark */ = 4B7CC16A144120370045C4AA /* PBXTextBookmark */;
-			4B7CC16F144121190045C4AA /* PBXTextBookmark */ = 4B7CC16F144121190045C4AA /* PBXTextBookmark */;
-			4B7CC170144121190045C4AA /* PBXTextBookmark */ = 4B7CC170144121190045C4AA /* PBXTextBookmark */;
-			4B7CC171144121190045C4AA /* PBXTextBookmark */ = 4B7CC171144121190045C4AA /* PBXTextBookmark */;
-			4B7CC1741441215F0045C4AA /* PBXTextBookmark */ = 4B7CC1741441215F0045C4AA /* PBXTextBookmark */;
-			4B7CC177144122870045C4AA /* PBXTextBookmark */ = 4B7CC177144122870045C4AA /* PBXTextBookmark */;
-			4B7CC178144122870045C4AA /* PBXTextBookmark */ = 4B7CC178144122870045C4AA /* PBXTextBookmark */;
-			4B7CC179144122870045C4AA /* PBXTextBookmark */ = 4B7CC179144122870045C4AA /* PBXTextBookmark */;
-			4B83CC1B1440E17800C6D8A7 = 4B83CC1B1440E17800C6D8A7 /* PBXTextBookmark */;
-			4B83CC1C1440E17800C6D8A7 = 4B83CC1C1440E17800C6D8A7 /* PBXTextBookmark */;
-			4B83CC271440E45100C6D8A7 = 4B83CC271440E45100C6D8A7 /* PBXTextBookmark */;
-			4B83CC281440E45100C6D8A7 = 4B83CC281440E45100C6D8A7 /* PBXTextBookmark */;
-			4B83CC291440E45100C6D8A7 = 4B83CC291440E45100C6D8A7 /* PBXTextBookmark */;
-			4B83CC2C1440E47F00C6D8A7 = 4B83CC2C1440E47F00C6D8A7 /* PBXTextBookmark */;
-			4B8D2DAC142A9B62009256E6 = 4B8D2DAC142A9B62009256E6 /* PBXTextBookmark */;
-			4B8F62A3143FB71200A21F35 = 4B8F62A3143FB71200A21F35 /* PBXTextBookmark */;
-			4B8F62C6143FBEFD00A21F35 = 4B8F62C6143FBEFD00A21F35 /* PBXTextBookmark */;
-			4B8F62C7143FBEFD00A21F35 = 4B8F62C7143FBEFD00A21F35 /* PBXTextBookmark */;
-			4B8F62C9143FBEFD00A21F35 = 4B8F62C9143FBEFD00A21F35 /* PBXTextBookmark */;
-			4B8F62CC143FBEFD00A21F35 = 4B8F62CC143FBEFD00A21F35 /* PBXTextBookmark */;
-			4B8F62CE143FBEFD00A21F35 = 4B8F62CE143FBEFD00A21F35 /* PBXTextBookmark */;
-			4B8F62CF143FBEFD00A21F35 = 4B8F62CF143FBEFD00A21F35 /* PBXTextBookmark */;
-			4B8F62E3143FC0F800A21F35 = 4B8F62E3143FC0F800A21F35 /* PBXTextBookmark */;
-			4B8F62E4143FC0F800A21F35 = 4B8F62E4143FC0F800A21F35 /* PBXTextBookmark */;
-			4B8F62E5143FC0F800A21F35 = 4B8F62E5143FC0F800A21F35 /* PBXTextBookmark */;
-			4B8F62E6143FC0F800A21F35 = 4B8F62E6143FC0F800A21F35 /* PBXTextBookmark */;
-			4B8F62F6143FC13300A21F35 = 4B8F62F6143FC13300A21F35 /* PBXTextBookmark */;
-			4B8F6302143FC24F00A21F35 = 4B8F6302143FC24F00A21F35 /* PBXTextBookmark */;
-			4BCA9532143EE797006BC7B6 = 4BCA9532143EE797006BC7B6 /* PBXTextBookmark */;
+			4B898C4D144239C30054DF11 /* PBXTextBookmark */ = 4B898C4D144239C30054DF11 /* PBXTextBookmark */;
+			4B898C4E144239C30054DF11 /* PBXTextBookmark */ = 4B898C4E144239C30054DF11 /* PBXTextBookmark */;
+			4B898C6814423AF10054DF11 /* PBXTextBookmark */ = 4B898C6814423AF10054DF11 /* PBXTextBookmark */;
+			4B898C7514423E4D0054DF11 /* XCBuildMessageTextBookmark */ = 4B898C7514423E4D0054DF11 /* XCBuildMessageTextBookmark */;
+			4B898C861442424D0054DF11 /* PBXTextBookmark */ = 4B898C861442424D0054DF11 /* PBXTextBookmark */;
+			4B8D2DAC142A9B62009256E6 /* PBXTextBookmark */ = 4B8D2DAC142A9B62009256E6 /* PBXTextBookmark */;
+			4BCA9532143EE797006BC7B6 /* PBXTextBookmark */ = 4BCA9532143EE797006BC7B6 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4B2F54C314276A4C00A018C3 /* Source Control */;
 		userBuildSettings = {
@@ -203,14 +145,6 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	4B2F54C614276AD900A018C3 /* QuizBrain.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = QuizBrain.h;
-		path = /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrain.h;
-		sourceTree = "<absolute>";
-	};
 	4B2F54C714276AD900A018C3 /* QuizBrain.m */ = {
 		isa = PBXFileReference;
 		fileEncoding = 4;
@@ -218,12 +152,6 @@
 		name = QuizBrain.m;
 		path = /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrain.m;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 650}}";
-			sepNavSelRange = "{193, 0}";
-			sepNavVisRange = "{0, 838}";
-			sepNavWindowFrame = "{{92, 92}, {1151, 667}}";
-		};
 	};
 	4B2F54FA1427767600A018C3 /* QuizapViewController.m:105 */ = {
 		isa = PBXFileBreakpoint;
@@ -289,89 +217,10 @@
 	};
 	4B7CC11C14410E960045C4AA /* QuizBrain.m */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
 		name = QuizBrain.m;
 		path = /Users/mdahlgrengadd/Documents/Developer/Quizap/Classes/QuizBrain.m;
 		sourceTree = "<absolute>";
-	};
-	4B7CC11D14410E960045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* QuizapAppDelegate.h */;
-		name = "QuizapAppDelegate.h: 23";
-		rLen = 18;
-		rLoc = 475;
-		rType = 0;
-		vrLen = 778;
-		vrLoc = 0;
-	};
-	4B7CC11E14410E960045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* QuizapViewController.h */;
-		name = "QuizapViewController.h: 9";
-		rLen = 0;
-		rLoc = 176;
-		rType = 0;
-		vrLen = 919;
-		vrLoc = 0;
-	};
-	4B7CC11F14410E960045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4B8D2DE7142AA6D0009256E6 /* QAMultiChoiceQuestion.m */;
-		name = "QAMultiChoiceQuestion.m: 55";
-		rLen = 0;
-		rLoc = 1354;
-		rType = 0;
-		vrLen = 1045;
-		vrLoc = 45;
-	};
-	4B7CC12014410E960045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9744143F3AFA006BC7B6 /* HighscoreViewController.h */;
-		name = "HighscoreViewController.h: 23";
-		rLen = 0;
-		rLoc = 501;
-		rType = 0;
-		vrLen = 539;
-		vrLoc = 0;
-	};
-	4B7CC12114410E960045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 146";
-		rLen = 0;
-		rLoc = 3719;
-		rType = 0;
-		vrLen = 971;
-		vrLoc = 4339;
-	};
-	4B7CC12214410E960045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9745143F3AFA006BC7B6 /* HighscoreViewController.m */;
-		name = "HighscoreViewController.m: 41";
-		rLen = 0;
-		rLoc = 1043;
-		rType = 0;
-		vrLen = 1195;
-		vrLoc = 301;
-	};
-	4B7CC12314410E960045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 50";
-		rLen = 0;
-		rLoc = 1664;
-		rType = 0;
-		vrLen = 1495;
-		vrLoc = 149;
-	};
-	4B7CC12414410E960045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4B8D2DE6142AA6D0009256E6 /* QAMultiChoiceQuestion.h */;
-		name = "QAMultiChoiceQuestion.h: 24";
-		rLen = 0;
-		rLoc = 719;
-		rType = 0;
-		vrLen = 964;
-		vrLoc = 0;
 	};
 	4B7CC12514410E960045C4AA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -385,79 +234,10 @@
 	};
 	4B7CC12614410E960045C4AA /* QuizBrain.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = QuizBrain.h;
 		path = /Users/mdahlgrengadd/Documents/Developer/Quizap/Classes/QuizBrain.h;
 		sourceTree = "<absolute>";
-	};
-	4B7CC12714410E960045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9688143F1085006BC7B6 /* QuizBrainOO.m */;
-		name = "QuizBrainOO.m: 49";
-		rLen = 0;
-		rLoc = 788;
-		rType = 0;
-		vrLen = 700;
-		vrLoc = 0;
-	};
-	4B7CC12814410E960045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9687143F1085006BC7B6 /* QuizBrainOO.h */;
-		name = "QuizBrainOO.h: 13";
-		rLen = 0;
-		rLoc = 247;
-		rType = 0;
-		vrLen = 917;
-		vrLoc = 0;
-	};
-	4B7CC12914410E960045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9687143F1085006BC7B6 /* QuizBrainOO.h */;
-		name = "QuizBrainOO.h: 21";
-		rLen = 0;
-		rLoc = 401;
-		rType = 0;
-		vrLen = 917;
-		vrLoc = 0;
-	};
-	4B7CC131144110EE0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9688143F1085006BC7B6 /* QuizBrainOO.m */;
-		name = "QuizBrainOO.m: 49";
-		rLen = 0;
-		rLoc = 788;
-		rType = 0;
-		vrLen = 671;
-		vrLoc = 168;
-	};
-	4B7CC132144110EE0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9687143F1085006BC7B6 /* QuizBrainOO.h */;
-		name = "QuizBrainOO.h: 21";
-		rLen = 0;
-		rLoc = 401;
-		rType = 0;
-		vrLen = 917;
-		vrLoc = 0;
-	};
-	4B7CC133144110EE0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4B8D2DE6142AA6D0009256E6 /* QAMultiChoiceQuestion.h */;
-		name = "QAMultiChoiceQuestion.h: 22";
-		rLen = 0;
-		rLoc = 667;
-		rType = 0;
-		vrLen = 965;
-		vrLoc = 0;
-	};
-	4B7CC134144110EE0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4B8D2DE7142AA6D0009256E6 /* QAMultiChoiceQuestion.m */;
-		name = "QAMultiChoiceQuestion.m: 53";
-		rLen = 0;
-		rLoc = 1195;
-		rType = 0;
-		vrLen = 990;
-		vrLoc = 0;
 	};
 	4B7CC135144110EE0045C4AA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -479,65 +259,6 @@
 		vrLen = 1077;
 		vrLoc = 1103;
 	};
-	4B7CC137144110EE0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 50";
-		rLen = 0;
-		rLoc = 1664;
-		rType = 0;
-		vrLen = 1495;
-		vrLoc = 149;
-	};
-	4B7CC138144110EE0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 52";
-		rLen = 0;
-		rLoc = 1589;
-		rType = 0;
-		vrLen = 1180;
-		vrLoc = 835;
-	};
-	4B7CC13D1441169F0045C4AA /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "No '-autorelase' method found";
-		fRef = 4B8D2DE7142AA6D0009256E6 /* QAMultiChoiceQuestion.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 56;
-		rType = 1;
-	};
-	4B7CC13E1441169F0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4B8D2DE7142AA6D0009256E6 /* QAMultiChoiceQuestion.m */;
-		name = "QAMultiChoiceQuestion.m: 57";
-		rLen = 0;
-		rLoc = 1362;
-		rType = 0;
-		vrLen = 529;
-		vrLoc = 1159;
-	};
-	4B7CC143144116B00045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* QuizapViewController.h */;
-		name = "QuizapViewController.h: 9";
-		rLen = 0;
-		rLoc = 176;
-		rType = 0;
-		vrLen = 919;
-		vrLoc = 0;
-	};
-	4B7CC144144116B00045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 50";
-		rLen = 0;
-		rLoc = 1664;
-		rType = 0;
-		vrLen = 1679;
-		vrLoc = 597;
-	};
 	4B7CC145144116B00045C4AA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 4B8D2DE6142AA6D0009256E6 /* QAMultiChoiceQuestion.h */;
@@ -558,314 +279,60 @@
 		vrLen = 917;
 		vrLoc = 0;
 	};
-	4B7CC147144116B00045C4AA /* PBXTextBookmark */ = {
+	4B898C4D144239C30054DF11 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 64";
-		rLen = 0;
-		rLoc = 2450;
-		rType = 0;
-		vrLen = 1137;
-		vrLoc = 1303;
-	};
-	4B7CC148144116B00045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9688143F1085006BC7B6 /* QuizBrainOO.m */;
-		name = "QuizBrainOO.m: 49";
-		rLen = 0;
-		rLoc = 788;
-		rType = 0;
-		vrLen = 667;
-		vrLoc = 648;
-	};
-	4B7CC149144116B00045C4AA /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "No '-autorelase' method found";
 		fRef = 4B8D2DE7142AA6D0009256E6 /* QAMultiChoiceQuestion.m */;
+		name = "QAMultiChoiceQuestion.m: 57";
+		rLen = 0;
+		rLoc = 1427;
+		rType = 0;
+		vrLen = 996;
+		vrLoc = 0;
+	};
+	4B898C4E144239C30054DF11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* QuizapViewController.h */;
+		name = "QuizapViewController.h: 23";
+		rLen = 0;
+		rLoc = 606;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 0;
+	};
+	4B898C6814423AF10054DF11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4B898C6914423AF10054DF11 /* BreakoutViewController.m */;
+		name = "BreakoutViewController.m: 36";
+		rLen = 190;
+		rLoc = 908;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 640;
+	};
+	4B898C6914423AF10054DF11 /* BreakoutViewController.m */ = {
+		isa = PBXFileReference;
+		name = BreakoutViewController.m;
+		path = /Users/mdahlgrengadd/Documents/Developer/Breakout/Classes/BreakoutViewController.m;
+		sourceTree = "<absolute>";
+	};
+	4B898C7514423E4D0054DF11 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'NSMutableArray' may not respond to '-relase'";
+		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 56;
+		rLoc = 209;
 		rType = 1;
 	};
-	4B7CC14A144116B00045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4B8D2DE7142AA6D0009256E6 /* QAMultiChoiceQuestion.m */;
-		name = "QAMultiChoiceQuestion.m: 57";
-		rLen = 0;
-		rLoc = 1427;
-		rType = 0;
-		vrLen = 771;
-		vrLoc = 1142;
-	};
-	4B7CC14F14411A5E0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4B8D2DE7142AA6D0009256E6 /* QAMultiChoiceQuestion.m */;
-		name = "QAMultiChoiceQuestion.m: 57";
-		rLen = 0;
-		rLoc = 1427;
-		rType = 0;
-		vrLen = 872;
-		vrLoc = 0;
-	};
-	4B7CC15014411A5E0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* QuizapViewController.h */;
-		name = "QuizapViewController.h: 9";
-		rLen = 0;
-		rLoc = 176;
-		rType = 0;
-		vrLen = 919;
-		vrLoc = 0;
-	};
-	4B7CC15114411A5E0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* QuizapAppDelegate.h */;
-		name = "QuizapAppDelegate.h: 28";
-		rLen = 0;
-		rLoc = 744;
-		rType = 0;
-		vrLen = 780;
-		vrLoc = 0;
-	};
-	4B7CC15214411A5E0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 50";
-		rLen = 0;
-		rLoc = 1664;
-		rType = 0;
-		vrLen = 1651;
-		vrLoc = 1552;
-	};
-	4B7CC15314411A5E0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 28";
-		rLen = 0;
-		rLoc = 736;
-		rType = 0;
-		vrLen = 1511;
-		vrLoc = 41;
-	};
-	4B7CC15614411A7A0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 28";
-		rLen = 0;
-		rLoc = 784;
-		rType = 0;
-		vrLen = 1515;
-		vrLoc = 41;
-	};
-	4B7CC15914411B000045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 26";
-		rLen = 0;
-		rLoc = 598;
-		rType = 0;
-		vrLen = 1515;
-		vrLoc = 41;
-	};
-	4B7CC16014411FE00045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 26";
-		rLen = 0;
-		rLoc = 598;
-		rType = 0;
-		vrLen = 1690;
-		vrLoc = 1837;
-	};
-	4B7CC16114411FE00045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* QuizapViewController.h */;
-		name = "QuizapViewController.h: 33";
-		rLen = 0;
-		rLoc = 716;
-		rType = 0;
-		vrLen = 979;
-		vrLoc = 0;
-	};
-	4B7CC16214411FE00045C4AA /* PBXTextBookmark */ = {
+	4B898C861442424D0054DF11 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 78";
+		name = "QuizapViewController.m: 136";
 		rLen = 0;
-		rLoc = 2450;
+		rLoc = 3911;
 		rType = 0;
-		vrLen = 761;
-		vrLoc = 1946;
-	};
-	4B7CC16314411FE00045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 75";
-		rLen = 0;
-		rLoc = 2180;
-		rType = 0;
-		vrLen = 775;
-		vrLoc = 1946;
-	};
-	4B7CC168144120370045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 75";
-		rLen = 0;
-		rLoc = 2180;
-		rType = 0;
-		vrLen = 1307;
-		vrLoc = 642;
-	};
-	4B7CC169144120370045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9688143F1085006BC7B6 /* QuizBrainOO.m */;
-		name = "QuizBrainOO.m: 49";
-		rLen = 0;
-		rLoc = 788;
-		rType = 0;
-		vrLen = 667;
-		vrLoc = 648;
-	};
-	4B7CC16A144120370045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9688143F1085006BC7B6 /* QuizBrainOO.m */;
-		name = "QuizBrainOO.m: 29";
-		rLen = 0;
-		rLoc = 564;
-		rType = 0;
-		vrLen = 643;
-		vrLoc = 144;
-	};
-	4B7CC16F144121190045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9688143F1085006BC7B6 /* QuizBrainOO.m */;
-		name = "QuizBrainOO.m: 29";
-		rLen = 0;
-		rLoc = 564;
-		rType = 0;
-		vrLen = 588;
-		vrLoc = 754;
-	};
-	4B7CC170144121190045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 75";
-		rLen = 0;
-		rLoc = 2180;
-		rType = 0;
-		vrLen = 1350;
-		vrLoc = 599;
-	};
-	4B7CC171144121190045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 77";
-		rLen = 0;
-		rLoc = 2256;
-		rType = 0;
-		vrLen = 816;
-		vrLoc = 1837;
-	};
-	4B7CC1741441215F0045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 82";
-		rLen = 0;
-		rLoc = 2442;
-		rType = 0;
-		vrLen = 903;
-		vrLoc = 2129;
-	};
-	4B7CC177144122870045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* QuizapViewController.h */;
-		name = "QuizapViewController.h: 33";
-		rLen = 0;
-		rLoc = 716;
-		rType = 0;
-		vrLen = 979;
-		vrLoc = 0;
-	};
-	4B7CC178144122870045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 81";
-		rLen = 0;
-		rLoc = 2369;
-		rType = 0;
-		vrLen = 824;
-		vrLoc = 1837;
-	};
-	4B7CC179144122870045C4AA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 134";
-		rLen = 0;
-		rLoc = 3740;
-		rType = 0;
-		vrLen = 1286;
-		vrLoc = 2982;
-	};
-	4B83CC1B1440E17800C6D8A7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 50";
-		rLen = 0;
-		rLoc = 1664;
-		rType = 0;
-		vrLen = 1865;
-		vrLoc = 411;
-	};
-	4B83CC1C1440E17800C6D8A7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 50";
-		rLen = 0;
-		rLoc = 1664;
-		rType = 0;
-		vrLen = 1707;
-		vrLoc = 411;
-	};
-	4B83CC271440E45100C6D8A7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 146";
-		rLen = 0;
-		rLoc = 3719;
-		rType = 0;
-		vrLen = 983;
-		vrLoc = 2045;
-	};
-	4B83CC281440E45100C6D8A7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 50";
-		rLen = 0;
-		rLoc = 1664;
-		rType = 0;
-		vrLen = 1295;
-		vrLoc = 0;
-	};
-	4B83CC291440E45100C6D8A7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 35";
-		rLen = 0;
-		rLoc = 1107;
-		rType = 0;
-		vrLen = 1427;
-		vrLoc = 411;
-	};
-	4B83CC2C1440E47F00C6D8A7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 35";
-		rLen = 0;
-		rLoc = 1107;
-		rType = 0;
-		vrLen = 1427;
-		vrLoc = 411;
+		vrLen = 1142;
+		vrLoc = 3082;
 	};
 	4B8D2DAC142A9B62009256E6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -912,138 +379,8 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {813, 1157}}";
 			sepNavSelRange = "{1427, 0}";
-			sepNavVisRange = "{0, 872}";
+			sepNavVisRange = "{0, 996}";
 		};
-	};
-	4B8F62A3143FB71200A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9745143F3AFA006BC7B6 /* HighscoreViewController.m */;
-		name = "HighscoreViewController.m: 41";
-		rLen = 0;
-		rLoc = 1043;
-		rType = 0;
-		vrLen = 1026;
-		vrLoc = 693;
-	};
-	4B8F62C6143FBEFD00A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9744143F3AFA006BC7B6 /* HighscoreViewController.h */;
-		name = "HighscoreViewController.h: 23";
-		rLen = 0;
-		rLoc = 501;
-		rType = 0;
-		vrLen = 539;
-		vrLoc = 0;
-	};
-	4B8F62C7143FBEFD00A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* QuizapAppDelegate.h */;
-		name = "QuizapAppDelegate.h: 23";
-		rLen = 18;
-		rLoc = 475;
-		rType = 0;
-		vrLen = 778;
-		vrLoc = 0;
-	};
-	4B8F62C9143FBEFD00A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* QuizapViewController.h */;
-		name = "QuizapViewController.h: 39";
-		rLen = 0;
-		rLoc = 958;
-		rType = 0;
-		vrLen = 911;
-		vrLoc = 30;
-	};
-	4B8F62CC143FBEFD00A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4B8D2DE7142AA6D0009256E6 /* QAMultiChoiceQuestion.m */;
-		name = "QAMultiChoiceQuestion.m: 55";
-		rLen = 0;
-		rLoc = 1354;
-		rType = 0;
-		vrLen = 985;
-		vrLoc = 91;
-	};
-	4B8F62CE143FBEFD00A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9688143F1085006BC7B6 /* QuizBrainOO.m */;
-		name = "QuizBrainOO.m: 48";
-		rLen = 0;
-		rLoc = 1108;
-		rType = 0;
-		vrLen = 794;
-		vrLoc = 530;
-	};
-	4B8F62CF143FBEFD00A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4B8D2DE6142AA6D0009256E6 /* QAMultiChoiceQuestion.h */;
-		name = "QAMultiChoiceQuestion.h: 24";
-		rLen = 0;
-		rLoc = 719;
-		rType = 0;
-		vrLen = 964;
-		vrLoc = 0;
-	};
-	4B8F62E3143FC0F800A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BCA9687143F1085006BC7B6 /* QuizBrainOO.h */;
-		name = "QuizBrainOO.h: 23";
-		rLen = 41;
-		rLoc = 767;
-		rType = 0;
-		vrLen = 542;
-		vrLoc = 0;
-	};
-	4B8F62E4143FC0F800A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4B2F54C714276AD900A018C3 /* QuizBrain.m */;
-		name = "QuizBrain.m: 83";
-		rLen = 0;
-		rLoc = 1434;
-		rType = 0;
-		vrLen = 767;
-		vrLoc = 876;
-	};
-	4B8F62E5143FC0F800A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4B2F54C614276AD900A018C3 /* QuizBrain.h */;
-		name = "QuizBrain.h: 34";
-		rLen = 0;
-		rLoc = 861;
-		rType = 0;
-		vrLen = 1024;
-		vrLoc = 0;
-	};
-	4B8F62E6143FC0F800A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* QuizapViewController.m */;
-		name = "QuizapViewController.m: 146";
-		rLen = 0;
-		rLoc = 3719;
-		rType = 0;
-		vrLen = 983;
-		vrLoc = 2045;
-	};
-	4B8F62F6143FC13300A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 50";
-		rLen = 0;
-		rLoc = 1664;
-		rType = 0;
-		vrLen = 1750;
-		vrLoc = 526;
-	};
-	4B8F6302143FC24F00A21F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* QuizapAppDelegate.m */;
-		name = "QuizapAppDelegate.m: 50";
-		rLen = 0;
-		rLoc = 1664;
-		rType = 0;
-		vrLen = 1742;
-		vrLoc = 526;
 	};
 	4BCA9532143EE797006BC7B6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1073,7 +410,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {813, 1105}}";
 			sepNavSelRange = "{564, 0}";
-			sepNavVisRange = "{754, 588}";
+			sepNavVisRange = "{735, 607}";
 			sepNavWindowFrame = "{{38, 85}, {1151, 667}}";
 		};
 	};

@@ -35,9 +35,9 @@ int randomSort(id obj1, id obj2, void *context ) {
 	[buttons retain];
 	NSLog(@"aaa size=%d", [buttons count]);
 	[buttons sortUsingFunction:randomSort context:nil]; // randomize questions
-	[self.ChoiceButton1 setTitle:[buttons objectAtIndex:0] forState:UIControlStateNormal];
-	[self.ChoiceButton2 setTitle:[buttons objectAtIndex:1] forState:UIControlStateNormal];
-	[self.ChoiceButton3 setTitle:[buttons objectAtIndex:2] forState:UIControlStateNormal];
+	[[ChoiceButtons objectAtIndex: 0] setTitle:[buttons objectAtIndex:0] forState:UIControlStateNormal];
+	[[ChoiceButtons objectAtIndex: 1] setTitle:[buttons objectAtIndex:1] forState:UIControlStateNormal];
+	[[ChoiceButtons objectAtIndex: 2] setTitle:[buttons objectAtIndex:2] forState:UIControlStateNormal];
 	[buttons release];
 	[q release];
 
@@ -110,11 +110,45 @@ int randomSort(id obj1, id obj2, void *context ) {
 }
 */
 
-/*
+- (void) draggedOut: (UIControl *) c withEvent: (UIEvent *) ev {
+	c.center = [[[ev allTouches] anyObject] locationInView:nil];
+}
+
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
+
+	// Create the main view
+	self.wantsFullScreenLayout = YES;
+	UIView *screen = [[UIView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
+	self.view = screen;
+	
+
+	// Make the buttons array so we can keep track of our buttons later...
+	ChoiceButtons = [[NSMutableArray alloc] init];
+
+	// Make 3 buttons...
+	for (int i=0; i < 3; i++) {
+		// Make the button and set it all up
+		UIButton *b = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
+		// Button press event
+		[b addTarget:self 
+			  action:@selector(ButtonPressed:)
+				forControlEvents:UIControlEventTouchUpInside];
+
+		// Drag n drop
+		[b addTarget:self action:@selector(draggedOut:withEvent: ) 
+				forControlEvents: UIControlEventTouchDragOutside | UIControlEventTouchDragInside];
+		
+	
+		[ChoiceButtons addObject:b];
+
+		[b setFrame:CGRectMake(100, 100+i*100, 100, 100)];
+		[self.view addSubview:b];
+		[b release];
+	}
+ 
 }
-*/
+
 
 
 
@@ -173,6 +207,7 @@ int randomSort(id obj1, id obj2, void *context ) {
 
 
 - (void)dealloc {
+	[ChoiceButtons release];
 	[BrainOO release];
     [super dealloc];
 }

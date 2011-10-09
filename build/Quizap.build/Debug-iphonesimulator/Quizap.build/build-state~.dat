@@ -1,0 +1,406 @@
+TQuizap
+v7
+r0
+t339807886.716353
+cCheck dependencies
+cProcessInfoPlistFile /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Info.plist Quizap-Info.plist
+cCompileXIB /Users/mdahlgrengadd/Documents/Developer/Qlue/MainWindow.xib
+cCompileXIB /Users/mdahlgrengadd/Documents/Developer/Qlue/QuizapViewController.xib
+cCompileXIB /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.xib
+cProcessPCH /var/folders/dh/pb7cg8d12q15z804lf1d1hb40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quizap_Prefix-foupqkcnjldpixfvucryoxglkcrf/Quizap_Prefix.pch.gch Quizap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/main.o /Users/mdahlgrengadd/Documents/Developer/Qlue/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapAppDelegate.o /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapViewController.o /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QAMultiChoiceQuestion.o /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QAMultiChoiceQuestion.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizBrainOO.o /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrainOO.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/HighscoreViewController.o /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Quizap normal i386
+cGenerateDSYMFile /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app.dSYM /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Quizap
+cTouch /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.h
+c000000004E8F8749000000000000021B
+t1318029129
+s539
+i<UIKit/UIKit.h>
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.m
+c000000004E8F7B68000000000000088A
+t1318026088
+s2186
+i"QuizapAppDelegate.h"
+i"HighscoreViewController.h"
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.xib
+c000000004E8F7A940000000000006DA6
+t1318025876
+s28070
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QAMultiChoiceQuestion.h
+c000000004E8F874600000000000003C4
+t1318029126
+s964
+i<Foundation/Foundation.h>
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QAMultiChoiceQuestion.m
+c000000004E8ED76F0000000000000761
+t1317984111
+s1889
+i"QAMultiChoiceQuestion.h"
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrain.h
+c000000004E8F87490000000000000400
+t1318029129
+s1024
+i<Foundation/Foundation.h>
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrain.m
+c000000004E8F8778000000000000066B
+t1318029176
+s1643
+i"QuizBrain.h"
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrainOO.h
+c000000004E90D5370000000000000395
+t1318114615
+s917
+i<Foundation/Foundation.h>
+i"QAMultiChoiceQuestion.h"
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrainOO.m
+c000000004E90D6E8000000000000053E
+t1318115048
+s1342
+i"QuizBrainOO.h"
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapAppDelegate.h
+c000000004E8F2D82000000000000030A
+t1318006146
+s778
+i"QuizBrainOO.h"
+i"QAMultiChoiceQuestion.h"
+i<UIKit/UIKit.h>
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapAppDelegate.m
+c000000004E90AEB00000000000000EF0
+t1318104752
+s3824
+i"QuizapAppDelegate.h"
+i"QuizapViewController.h"
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapViewController.h
+c000000004E90D5370000000000000397
+t1318114615
+s919
+i<UIKit/UIKit.h>
+i"QuizBrainOO.h"
+i"QAMultiChoiceQuestion.h"
+i"HighscoreViewController.h"
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapViewController.m
+c000000004E8F883100000000000014C3
+t1318029361
+s5315
+i"QuizapViewController.h"
+i"QuizapAppDelegate.h"
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/MainWindow.xib
+c000000004E8F88270000000000007E4B
+t1318029351
+s32331
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/QuizapViewController.xib
+c000000004E8F1FA900000000000087BE
+t1318002601
+s34750
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/Quizap_Prefix.pch
+c000000004E7732B800000000000000B5
+t1316434616
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app
+t1318115086
+s272
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app.dSYM
+t1318115086
+s102
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/HighscoreViewController.nib
+t1318115084
+s3908
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Info.plist
+t1318115081
+s587
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/MainWindow.nib
+t1318115083
+s2538
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/PkgInfo
+t1318115081
+s8
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Quizap
+t1318115086
+s41040
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/QuizapViewController.nib
+t1318115083
+s4878
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/HighscoreViewController.o
+t1318115086
+s51984
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QAMultiChoiceQuestion.o
+t1318115086
+s15816
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizBrain.o
+t1318104752
+s17156
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizBrainOO.o
+t1318115086
+s16692
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/Quizap.LinkFileList
+c000000004E90D7090000000000000342
+t1318115081
+s834
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapAppDelegate.o
+t1318115086
+s59848
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapViewController.o
+t1318115086
+s59936
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/main.o
+t1318115086
+s6392
+
+N/Users/mdahlgrengadd/Documents/Developer/Qlue/main.m
+c000000004E7732B8000000000000016E
+t1316434616
+s366
+i<UIKit/UIKit.h>
+
+N/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/var/folders/dh/pb7cg8d12q15z804lf1d1hb40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quizap_Prefix-foupqkcnjldpixfvucryoxglkcrf/Quizap_Prefix.pch.gch
+t1318115085
+s15814064
+
+NQuizap-Info.plist
+c000000004E7732B8000000000000038D
+t1316434616
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies339807881#339807881#0(0"0(0#1#0"4490753344#0"0#
+
+CCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/HighscoreViewController.o /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339807886.376454
+e339807886.564723
+r1
+xCompileC
+xbuild/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/HighscoreViewController.o
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.m339807886#339807886#0(0"0(0#0#79"/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.m4490751632#2143"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv LANG en_US.US-ASCII    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-generated-files.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-own-target-headers.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-all-target-headers.hmap -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-project-headers.hmap -F/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/include -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources/i386 -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources -include /var/folders/dh/pb7cg8d12q15z804lf1d1hb40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quizap_Prefix-foupqkcnjldpixfvucryoxglkcrf/Quizap_Prefix.pch -c /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.m -o /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/HighscoreViewController.o0#
+
+CCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QAMultiChoiceQuestion.o /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QAMultiChoiceQuestion.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339807886.198365
+e339807886.376255
+r1
+xCompileC
+xbuild/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QAMultiChoiceQuestion.o
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QAMultiChoiceQuestion.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QAMultiChoiceQuestion.m339807886#339807886#0(0"0(0#0#77"/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QAMultiChoiceQuestion.m4490751632#2139"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv LANG en_US.US-ASCII    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-generated-files.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-own-target-headers.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-all-target-headers.hmap -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-project-headers.hmap -F/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/include -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources/i386 -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources -include /var/folders/dh/pb7cg8d12q15z804lf1d1hb40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quizap_Prefix-foupqkcnjldpixfvucryoxglkcrf/Quizap_Prefix.pch -c /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QAMultiChoiceQuestion.m -o /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QAMultiChoiceQuestion.o0#
+
+CCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizBrain.o /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339796341.536390
+e339796341.723925
+r1
+xCompileC
+xbuild/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizBrain.o
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrain.m339796341#339796341#0(0"0(0#0#65"/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrain.m4466802320#2053"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv LANG en_US.US-ASCII    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-generated-files.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-own-target-headers.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-all-target-headers.hmap -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-project-headers.hmap -F/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/include -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources/i386 -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources -include /var/folders/dh/pb7cg8d12q15z804lf1d1hb40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quizap_Prefix-foupqkcnjldpixfvucryoxglkcrf/Quizap_Prefix.pch -c /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrain.m -o /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizBrain.o0#
+
+CCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizBrainOO.o /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrainOO.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339807886.360685
+e339807886.551475
+r1
+xCompileC
+xbuild/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizBrainOO.o
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrainOO.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrainOO.m339807886#339807886#0(0"0(0#0#67"/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrainOO.m4490751632#2119"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv LANG en_US.US-ASCII    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-generated-files.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-own-target-headers.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-all-target-headers.hmap -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-project-headers.hmap -F/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/include -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources/i386 -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources -include /var/folders/dh/pb7cg8d12q15z804lf1d1hb40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quizap_Prefix-foupqkcnjldpixfvucryoxglkcrf/Quizap_Prefix.pch -c /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrainOO.m -o /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizBrainOO.o0#
+
+CCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapAppDelegate.o /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339807885.955442
+e339807886.194841
+r1
+xCompileC
+xbuild/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapAppDelegate.o
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapAppDelegate.m339807885#339807886#0(0"0(0#0#73"/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapAppDelegate.m4490751632#2131"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv LANG en_US.US-ASCII    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-generated-files.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-own-target-headers.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-all-target-headers.hmap -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-project-headers.hmap -F/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/include -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources/i386 -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources -include /var/folders/dh/pb7cg8d12q15z804lf1d1hb40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quizap_Prefix-foupqkcnjldpixfvucryoxglkcrf/Quizap_Prefix.pch -c /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapAppDelegate.m -o /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapAppDelegate.o0#
+
+CCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapViewController.o /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339807886.067792
+e339807886.360491
+r1
+xCompileC
+xbuild/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapViewController.o
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapViewController.m339807886#339807886#0(0"0(0#0#76"/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapViewController.m4490751632#2137"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv LANG en_US.US-ASCII    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-generated-files.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-own-target-headers.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-all-target-headers.hmap -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-project-headers.hmap -F/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/include -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources/i386 -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources -include /var/folders/dh/pb7cg8d12q15z804lf1d1hb40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quizap_Prefix-foupqkcnjldpixfvucryoxglkcrf/Quizap_Prefix.pch -c /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapViewController.m -o /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapViewController.o0#
+
+CCompileC build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/main.o /Users/mdahlgrengadd/Documents/Developer/Qlue/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339807885.953079
+e339807886.067590
+r1
+xCompileC
+xbuild/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/main.o
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/mdahlgrengadd/Documents/Developer/Qlue/main.m339807885#339807886#0(0"0(0#0#52"/Users/mdahlgrengadd/Documents/Developer/Qlue/main.m4490751632#2097"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv LANG en_US.US-ASCII    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-generated-files.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-own-target-headers.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-all-target-headers.hmap -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-project-headers.hmap -F/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/include -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources/i386 -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources -include /var/folders/dh/pb7cg8d12q15z804lf1d1hb40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quizap_Prefix-foupqkcnjldpixfvucryoxglkcrf/Quizap_Prefix.pch -c /Users/mdahlgrengadd/Documents/Developer/Qlue/main.m -o /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.xib
+s339807883.415201
+e339807884.527356
+r1
+xCompileXIB
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@46"CompileXIB Classes/HighscoreViewController.xib339807883#339807884#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#81"/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.xib4490751632#754"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/mdahlgrengadd/Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/HighscoreViewController.nib /Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.xib --sdk /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/mdahlgrengadd/Documents/Developer/Qlue/MainWindow.xib
+s339807881.975749
+e339807883.415027
+r1
+xCompileXIB
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+o/* com.apple.ibtool.document.warnings */
+o/Users/mdahlgrengadd/Documents/Developer/Qlue/MainWindow.xib:16: warning: 'Navigation Controller' has its 'NIB Name' property set to 'QuizapViewController.nib', but this view controller is not intended to have its view set in this manner.
+lSLF07#2@25"CompileXIB MainWindow.xib339807881#339807883#0(364"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)/* com.apple.ibtool.document.warnings *//Users/mdahlgrengadd/Documents/Developer/Qlue/MainWindow.xib:16: warning: 'Navigation Controller' has its 'NIB Name' property set to 'QuizapViewController.nib', but this view controller is not intended to have its view set in this manner.1(22@164"'Navigation Controller' has its 'NIB Name' property set to 'QuizapViewController.nib', but this view controller is not intended to have its view set in this manner.339807883#18446744073709551615#0#0(6@60"/Users/mdahlgrengadd/Documents/Developer/Qlue/MainWindow.xib339722151#16#0#16#0#0"0(0#0#60"/Users/mdahlgrengadd/Documents/Developer/Qlue/MainWindow.xib4490751632#720"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/mdahlgrengadd/Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/MainWindow.nib /Users/mdahlgrengadd/Documents/Developer/Qlue/MainWindow.xib --sdk /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/mdahlgrengadd/Documents/Developer/Qlue/QuizapViewController.xib
+s339807881.978320
+e339807883.530288
+r1
+xCompileXIB
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/QuizapViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@35"CompileXIB QuizapViewController.xib339807881#339807883#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#70"/Users/mdahlgrengadd/Documents/Developer/Qlue/QuizapViewController.xib4490751632#740"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/mdahlgrengadd/Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/QuizapViewController.nib /Users/mdahlgrengadd/Documents/Developer/Qlue/QuizapViewController.xib --sdk /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app.dSYM /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Quizap
+s339807886.657496
+e339807886.708549
+r1
+xGenerateDSYMFile
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app.dSYM
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Quizap
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Quizap.app.dSYM build/Debug-iphonesimulator/Quizap.app/Quizap339807886#339807886#0(0"0(0#0#91"/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Quizap4490751632#514"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/mdahlgrengadd/Xcode3/usr/bin/dsymutil /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Quizap -o /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app.dSYM0#
+
+CLd /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Quizap normal i386
+s339807886.564907
+e339807886.657305
+r1
+xLd
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Quizap
+xnormal
+xi386
+lSLF07#2@96"Link /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Quizap339807886#339807886#0(0"0(0#0#0"4490751632#1060"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator -F/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator -filelist /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/Quizap.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Quizap0#
+
+CProcessInfoPlistFile /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Info.plist Quizap-Info.plist
+s339807881.917813
+e339807881.975531
+r1
+xProcessInfoPlistFile
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Info.plist
+xQuizap-Info.plist
+lSLF07#2@25"Process Quizap-Info.plist339807881#339807881#0(0"0(0#0#63"/Users/mdahlgrengadd/Documents/Developer/Qlue/Quizap-Info.plist4490751744#593"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Quizap-Info.plist -genpkginfo /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Info.plist0#
+
+CProcessPCH /var/folders/dh/pb7cg8d12q15z804lf1d1hb40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quizap_Prefix-foupqkcnjldpixfvucryoxglkcrf/Quizap_Prefix.pch.gch Quizap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s339807884.527596
+e339807885.952798
+r1
+xProcessPCH
+x/var/folders/dh/pb7cg8d12q15z804lf1d1hb40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quizap_Prefix-foupqkcnjldpixfvucryoxglkcrf/Quizap_Prefix.pch.gch
+xQuizap_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Quizap_Prefix.pch339807884#339807885#0(0"0(0#0#63"/Users/mdahlgrengadd/Documents/Developer/Qlue/Quizap_Prefix.pch4490751632#1983"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv LANG en_US.US-ASCII    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-generated-files.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-own-target-headers.hmap -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-all-target-headers.hmap -iquote /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Quizap-project-headers.hmap -F/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/include -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources/i386 -I/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/DerivedSources -c /Users/mdahlgrengadd/Documents/Developer/Qlue/Quizap_Prefix.pch -o /var/folders/dh/pb7cg8d12q15z804lf1d1hb40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quizap_Prefix-foupqkcnjldpixfvucryoxglkcrf/Quizap_Prefix.pch.gch0#
+
+CTouch /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app
+s339807886.708718
+e339807886.716088
+r1
+xTouch
+x/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app
+lSLF07#2@90"Touch /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app339807886#339807886#0(0"0(0#0#0"4490751632#387"    cd /Users/mdahlgrengadd/Documents/Developer/Qlue    setenv PATH "/Users/mdahlgrengadd/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/mdahlgrengadd/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app0#
+

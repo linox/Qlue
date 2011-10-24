@@ -93,11 +93,9 @@ s288
 i<UIKit/UIKit.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/../StartupViewController.m
-c000000004EA070D90000000000000B5D
-t1319137497
-s2909
-i"ItemsViewController.h"
-i"StartupViewController.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/ContainerFrame.h
 c000000004E9447C70000000000000497
@@ -106,34 +104,32 @@ s1175
 i<UIKit/UIKit.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/ContainerFrame.m
-c000000004E959CE1000000000000090A
-t1318427873
-s2314
-i"ContainerFrame.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HeaderView.xib
-c000000004EA06F64000000000000566A
-t1319137124
-s22122
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.h
-c000000004E99541D0000000000000240
-t1318671389
-s576
+c000000004EA53062000000000000021B
+t1319448674
+s539
 i<UIKit/UIKit.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.m
-c000000004EA079660000000000000B21
-t1319139686
-s2849
+c000000004EA53062000000000000088A
+t1319448674
+s2186
 i"QuizapAppDelegate.h"
 i"HighscoreViewController.h"
-i"QuizStore.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/HighscoreViewController.xib
-c000000004EA078CD0000000000007DD8
-t1319139533
-s32216
+c000000004EA530620000000000006DA6
+t1319448674
+s28070
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/ItemsViewController.h
 c000000004E9D522800000000000001BD
@@ -143,16 +139,9 @@ i<Foundation/Foundation.h>
 i"QuizapView2Controller.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/ItemsViewController.m
-c000000004EA43A740000000000001FD2
-t1319385716
-s8146
-i"QuizapAppDelegate.h"
-i"ItemsViewController.h"
-i"QuizStore.h"
-i"QuizBrainOO.h"
-i"RequirementsViewController.h"
-i"QuizapEditQuizViewController.h"
-i"QuizSelectedViewController.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/ItemsViewController.xib
 c000000004E9D517B0000000000001116
@@ -160,15 +149,15 @@ t1318932859
 s4374
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QAMultiChoiceQuestion.h
-c000000004E9937C000000000000002FD
-t1318664128
-s765
+c000000004EA5306200000000000002D5
+t1319448674
+s725
 i<Foundation/Foundation.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QAMultiChoiceQuestion.m
-c000000004E9937C000000000000007DC
-t1318664128
-s2012
+c000000004EA530620000000000000779
+t1319448674
+s1913
 i"QAMultiChoiceQuestion.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrain.h
@@ -184,16 +173,16 @@ s1643
 i"QuizBrain.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrainOO.h
-c000000004E9C030100000000000005E4
-t1318847233
-s1508
+c000000004EA530620000000000000395
+t1319448674
+s917
 i<Foundation/Foundation.h>
 i"QAMultiChoiceQuestion.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizBrainOO.m
-c000000004E9C300D0000000000000B25
-t1318858765
-s2853
+c000000004EA53062000000000000053E
+t1319448674
+s1342
 i"QuizBrainOO.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizButton.h
@@ -215,18 +204,14 @@ s407
 i<UIKit/UIKit.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizSelectedViewController.m
-c000000004EA056BC00000000000009C5
-t1319130812
-s2501
-i"QuizSelectedViewController.h"
-i"QuizapEditQuizViewController.h"
-i"QuizapView3Controller.h"
-i"QuizStore.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizSelectedViewController.xib
-c000000004E9D71A90000000000005FB3
-t1318941097
-s24499
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizStore.h
 c000000004E9D8AF10000000000000378
@@ -237,28 +222,24 @@ i"QuizBrainOO.h"
 i"QAMultiChoiceQuestion.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizStore.m
-c000000004E9D8AF10000000000003379
-t1318947569
-s13177
-i"QuizStore.h"
-i"../SBJson/SBJson.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapAppDelegate.h
-c000000004E9BE25A000000000000033E
-t1318838874
-s830
+c000000004EA53062000000000000030C
+t1319448674
+s780
 i"QuizBrainOO.h"
 i"QAMultiChoiceQuestion.h"
 i<UIKit/UIKit.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapAppDelegate.m
-c000000004EA43B50000000000000147F
-t1319385936
-s5247
+c000000004EA530620000000000000EF6
+t1319448674
+s3830
 i"QuizapAppDelegate.h"
 i"QuizapViewController.h"
-i"ItemsViewController.h"
-i"StartupViewController.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapEditQuizViewController.h
 c000000004E9D7A1200000000000001B8
@@ -267,17 +248,14 @@ s440
 i<UIKit/UIKit.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapEditQuizViewController.m
-c000000004E9D8CC30000000000000B95
-t1318948035
-s2965
-i"QuizapEditQuizViewController.h"
-i"QuizStore.h"
-i"QuizBrainOO.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapEditQuizViewController.xib
-c000000004E9D78AC0000000000005770
-t1318942892
-s22384
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapView2Controller kopia.m
 c000000004E9584E20000000000002A68
@@ -298,11 +276,9 @@ i"ContainerFrame.h"
 i"../CMPopTipView/CMPopTipView.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapView2Controller.m
-c000000004E9C4A8100000000000039B1
-t1318865537
-s14769
-i"QuizapView2Controller.h"
-i"QuizStore.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapView3Controller.h
 c000000004E9DA4B6000000000000079E
@@ -316,34 +292,30 @@ i"ContainerFrame.h"
 i"../CMPopTipView/CMPopTipView.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapView3Controller.m
-c000000004EA0778F0000000000004682
-t1319139215
-s18050
-i"QuizapView3Controller.h"
-i"QuizStore.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapView3Controller.xib
-c000000004E9D9E72000000000000187A
-t1318952562
-s6266
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapViewController.h
-c000000004E9447FF0000000000000585
-t1318340607
-s1413
+c000000004EA530620000000000000417
+t1319448674
+s1047
 i<UIKit/UIKit.h>
 i"QuizBrainOO.h"
 i"QAMultiChoiceQuestion.h"
 i"HighscoreViewController.h"
-i"ContainerFrame.h"
-i"../CMPopTipView/CMPopTipView.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizapViewController.m
-c000000004E9BE2DC0000000000002A4B
-t1318839004
-s10827
+c000000004EA5306200000000000017A3
+t1319448674
+s6051
 i"QuizapViewController.h"
-i"QuizStore.h"
+i"QuizapAppDelegate.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/RequirementsViewController.h
 c000000004E9C196E0000000000000102
@@ -352,12 +324,9 @@ s258
 i<UIKit/UIKit.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/RequirementsViewController.m
-c000000004E9C2E6E000000000000168C
-t1318858350
-s5772
-i"RequirementsViewController.h"
-i"QuizStore.h"
-i"QuizBrainOO.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/WEB_UI_TreasureChest_v1.0_By_Artdesigner.lv copy.png
 c000000004EA065E600000000000012EB
@@ -365,19 +334,19 @@ t1319134694
 s4843
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/button.png
-c000000004EA065E600000000000012EB
-t1319134694
-s4843
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/DarkWoodenWall.jpg
-c0000000049D4D9DD0000000000019ABB
-t1238686173
-s105147
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/MainWindow.xib
-c000000004E9588450000000000009E20
-t1318422597
-s40480
+c000000004EA530620000000000007E4B
+t1319448674
+s32331
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/QuizapViewController.xib
 c000000004E8F1FA900000000000087BE
@@ -398,12 +367,9 @@ s2231
 i<Foundation/Foundation.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/NSObject+SBJson.m
-c000000004E970B1E00000000000008A6
-t1318521630
-s2214
-i"NSObject+SBJson.h"
-i"SBJsonWriter.h"
-i"SBJsonParser.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJson.h
 c000000004E970B1E0000000000000DA2
@@ -423,13 +389,9 @@ s3530
 i<Foundation/Foundation.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonParser.m
-c000000004E970B1E0000000000000CC0
-t1318521630
-s3264
-i"SBJsonParser.h"
-i"SBJsonStreamParser.h"
-i"SBJsonStreamParserAdapter.h"
-i"SBJsonStreamParserAccumulator.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamParser.h
 c000000004E970B1E0000000000001550
@@ -438,13 +400,9 @@ s5456
 i<Foundation/Foundation.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamParser.m
-c000000004E970B1E00000000000020D2
-t1318521630
-s8402
-i"SBJsonStreamParser.h"
-i"SBJsonTokeniser.h"
-i"SBJsonStreamParserState.h"
-i<limits.h>
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamParserAccumulator.h
 c000000004E970B1E00000000000006AE
@@ -454,10 +412,9 @@ i<Foundation/Foundation.h>
 i"SBJsonStreamParserAdapter.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamParserAccumulator.m
-c000000004E970B1E000000000000079B
-t1318521630
-s1947
-i"SBJsonStreamParserAccumulator.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamParserAdapter.h
 c000000004E970B1E000000000000145D
@@ -467,10 +424,9 @@ i<Foundation/Foundation.h>
 i"SBJsonStreamParser.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamParserAdapter.m
-c000000004E970B1E00000000000011DD
-t1318521630
-s4573
-i"SBJsonStreamParserAdapter.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamParserState.h
 c000000004E970B1E0000000000000B22
@@ -481,11 +437,9 @@ i"SBJsonTokeniser.h"
 i"SBJsonStreamParser.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamParserState.m
-c000000004E970B1E0000000000001FB6
-t1318521630
-s8118
-i"SBJsonStreamParserState.h"
-i"SBJsonStreamParser.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamWriter.h
 c000000004E970B1E000000000000161D
@@ -494,11 +448,9 @@ s5661
 i<Foundation/Foundation.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamWriter.m
-c000000004E970B1E0000000000002956
-t1318521630
-s10582
-i"SBJsonStreamWriter.h"
-i"SBJsonStreamWriterState.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamWriterAccumulator.h
 c000000004E970B1E0000000000000693
@@ -507,10 +459,9 @@ s1683
 i"SBJsonStreamWriter.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamWriterAccumulator.m
-c000000004E970B1E00000000000007EB
-t1318521630
-s2027
-i"SBJsonStreamWriterAccumulator.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamWriterState.h
 c000000004E970B1E00000000000009EC
@@ -519,11 +470,9 @@ s2540
 i<Foundation/Foundation.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonStreamWriterState.m
-c000000004E970B1E0000000000000F61
-t1318521630
-s3937
-i"SBJsonStreamWriterState.h"
-i"SBJsonStreamWriter.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonTokeniser.h
 c000000004E970B1E0000000000000888
@@ -532,11 +481,9 @@ s2184
 i<Foundation/Foundation.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonTokeniser.m
-c000000004E970B1E0000000000003386
-t1318521630
-s13190
-i"SBJsonTokeniser.h"
-i"SBJsonUTF8Stream.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonUTF8Stream.h
 c000000004E970B1E000000000000081E
@@ -545,10 +492,9 @@ s2078
 i<Foundation/Foundation.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonUTF8Stream.m
-c000000004E970B1E0000000000000F3D
-t1318521630
-s3901
-i"SBJsonUTF8Stream.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonWriter.h
 c000000004E970B1E0000000000001059
@@ -557,12 +503,9 @@ s4185
 i<Foundation/Foundation.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/SBJson/SBJsonWriter.m
-c000000004E970B1E0000000000000DBF
-t1318521630
-s3519
-i"SBJsonWriter.h"
-i"SBJsonStreamWriter.h"
-i"SBJsonStreamWriterAccumulator.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/Startup.xib
 c000000004E994A650000000000001643
@@ -582,9 +525,9 @@ s1466
 i"StartupViewController.h"
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/StartupViewController.xib
-c000000004EA06FB8000000000000565D
-t1319137208
-s22109
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/a.jpg
 c000000004E92F468000000000000070D
@@ -592,34 +535,34 @@ t1318253672
 s1805
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/blueButton.png
-c000000004EA0753D0000000000000EEF
-t1319138621
-s3823
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/books.png
-c000000004E95BEC400000000000018D2
-t1318436548
-s6354
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app
-t1319385936
-s1258
+t1319448674
+s272
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app.dSYM
 t1319385936
 s102
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/DarkWoodenWall.jpg
-t1319129423
-s105147
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/HeaderView.nib
-t1319137131
-s2037
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/HighscoreViewController.nib
-t1319139687
-s4395
+t1319448674
+s3908
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Info.plist
 t1319384312
@@ -630,31 +573,31 @@ t1318933019
 s614
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/MainWindow.nib
-t1318841414
-s3242
+t1319448674
+s2538
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/PkgInfo
 t1319384312
 s8
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/QuizSelectedViewController.nib
-t1318941117
-s3049
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Quizap
-t1319385936
-s261820
+t1319448674
+s41120
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/QuizapEditQuizViewController.nib
-t1318942898
-s2895
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/QuizapView3Controller.nib
-t1318952913
-s1231
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/QuizapViewController.nib
-t1318841414
+t1319448674
 s4878
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/Startup.nib
@@ -662,8 +605,8 @@ t2
 s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/StartupViewController.nib
-t1319137216
-s2317
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/WEB_UI_TreasureChest_v1.0_By_Artdesigner.lv copy.png
 t2
@@ -674,265 +617,265 @@ t1318253980
 s1805
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/blueButton.png
-t1319138656
-s3823
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/books.png
-t1318841415
-s6354
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/button.png
-t1319135141
-s4843
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/button1.jpg
-t1318841415
-s1805
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/button2.jpg
-t1318841415
-s4790
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/button3.jpg
-t1318841415
-s4868
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/classroom.jpg
-t1318841415
-s21377
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/classroom2.jpg
-t1318841415
-s21006
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/classroom3.png
-t1318841415
-s43113
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/close_48.png
-t1318952913
-s5728
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/close_64.png
-t1318952913
-s8161
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/quizdemo.qiz
-t1318866168
-s740
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/quizgame.qiz
 t1318664722
 s822
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/quizgame1.qiz
-t1319029629
-s19184
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/quizgame2.qiz
-t1318856142
-s888
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/star_64.png
-t1319139060
-s7205
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/student1.png
-t1318841415
-s18743
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/student2.png
-t1318841415
-s17668
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/student3.png
-t1318841415
-s17085
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/studentfull1.png
-t1318841415
-s24124
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/studentfull2.png
-t1318841415
-s27706
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/studentfull3.png
-t1318841415
-s23553
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Debug-iphonesimulator/Quizap.app/teacher.png
-t1318841415
-s22696
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/CMPopTipView.o
-t1318841419
-s78484
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/ContainerFrame.o
-t1318841419
-s46184
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/HighscoreViewController.o
-t1319139688
-s46256
+t1319448674
+s51984
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/ItemsViewController.o
-t1319385717
-s63580
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/NSObject+SBJson.o
-t1318841419
-s8624
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QAMultiChoiceQuestion.o
-t1318841418
-s14108
+t1319448674
+s13492
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizBrain.o
 t1318104752
 s17156
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizBrainOO.o
-t1318859984
-s27804
+t1319448674
+s16692
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizButton.o
 t1318251146
 s39404
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizSelectedViewController.o
-t1319130812
-s44424
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizStore.o
-t1318947571
-s32880
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/Quizap.LinkFileList
-c000000004E9D9FD00000000000000F84
-t1318952912
-s3972
+c000000004EA530620000000000000342
+t1319448674
+s834
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapAppDelegate.o
-t1319385936
-s58556
+t1319448674
+s59324
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapEditQuizViewController.o
-t1318948036
-s50332
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapView2Controller kopia.o
 t2
 s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapView2Controller.o
-t1318947570
-s83256
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapView3Controller.o
-t1319139216
-s85872
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/QuizapViewController.o
-t1318947570
-s77436
+t1319448674
+s65340
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/RequirementsViewController.o
-t1318947571
-s46156
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/SBJsonParser.o
-t1318841419
-s16516
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/SBJsonStreamParser.o
-t1318841420
-s29864
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
-t1318841420
-s10504
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
-t1318841420
-s24704
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/SBJsonStreamParserState.o
-t1318841420
-s45188
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/SBJsonStreamWriter.o
-t1318841420
-s45860
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
-t1318841420
-s10784
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/SBJsonStreamWriterState.o
-t1318841420
-s28192
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/SBJsonTokeniser.o
-t1318841421
-s30720
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/SBJsonUTF8Stream.o
-t1318841420
-s17552
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/SBJsonWriter.o
-t1318841421
-s18628
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/StartupViewController.o
-t1319137498
-s45844
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/build/Quizap.build/Debug-iphonesimulator/Quizap.build/Objects-normal/i386/main.o
 t1318841418
 s6392
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/button1.jpg
-c000000004E92F468000000000000070D
-t1318253672
-s1805
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/button2.jpg
-c000000004E92F7CA00000000000012B6
-t1318254538
-s4790
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/button3.jpg
-c000000004E92F80C0000000000001304
-t1318254604
-s4868
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/classroom.jpg
-c000000004E9328E10000000000005381
-t1318267105
-s21377
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/classroom2.jpg
-c000000004E959891000000000000520E
-t1318426769
-s21006
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/classroom3.png
-c000000004E95C4E2000000000000A869
-t1318438114
-s43113
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/close_48.png
-c000000004D7743780000000000001660
-t1299661688
-s5728
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/close_64.png
-c000000004D77436A0000000000001FE1
-t1299661674
-s8161
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/main.m
 c000000004E7732B8000000000000016E
@@ -941,9 +884,9 @@ s366
 i<UIKit/UIKit.h>
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/quizdemo.qiz
-c000000004E9C4CF800000000000002E4
-t1318866168
-s740
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/quizgame.qiz
 c000000004E993A120000000000000336
@@ -951,54 +894,54 @@ t1318664722
 s822
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/quizgame1.qiz
-c000000004E9ECB5A0000000000004AF0
-t1319029594
-s19184
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/quizgame2.qiz
-c000000004E9C25CD0000000000000378
-t1318856141
-s888
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/star_64.png
-c000000004EA0767D0000000000001C25
-t1319138941
-s7205
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/student1.png
-c000000004E958BB70000000000004937
-t1318423479
-s18743
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/student2.png
-c000000004E958BE50000000000004504
-t1318423525
-s17668
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/student3.png
-c000000004E959FFE00000000000042BD
-t1318428670
-s17085
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/studentfull1.png
-c000000004E95C3CC0000000000005E3C
-t1318437836
-s24124
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/studentfull2.png
-c000000004E95C3DA0000000000006C3A
-t1318437850
-s27706
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/studentfull3.png
-c000000004E95C40A0000000000005C01
-t1318437898
-s23553
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Qlue/teacher.png
-c000000004E95BF2D00000000000058A8
-t1318436653
-s22696
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/mdahlgrengadd/Documents/Developer/Quizap/CMPopTipView/CMPopTipView.h
 c000000004E91BDB50000000000001287

@@ -8,53 +8,91 @@
 
 #import "QuizapAppDelegate.h"
 #import "QuizapViewController.h"
-
+#import "ItemsViewController.h"
+#import "StartupViewController.h"
 
 @implementation QuizapAppDelegate
 
 @synthesize window;
 @synthesize viewController;
 @synthesize navigationController;
-@synthesize GlobalBrainOO;
+//@synthesize GlobalBrainOO;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
+  
+	// Create a ItemsViewController
+	StartupViewController *startupViewController = [[StartupViewController alloc] init];
+	// Place ItemsViewController's table view in the window hierarchy
+	//[navigationController setRootViewController:itemsViewController];
+	
+	
+
+	
+	UINavigationController *navController = [[UINavigationController alloc]
+											initWithRootViewController:startupViewController];
+	
+	navController.navigationBar.tintColor = [UIColor blackColor];
+    navController.navigationBar.translucent = NO;
+	navController.navigationBar.tintColor = [UIColor blackColor];
+	navController.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"DarkWoodenWall.jpg"]];
+	[startupViewController release]; 
+	
+	// Place navigation controller's view in the window hierarchy
+    [[self window] setRootViewController:navController];
+    [navController release];
+											 
+	
+	
     // Override point for customization after application launch.
-	[self.window addSubview:[navigationController view]];
+	//[self.window addSubview:[navigationController view]];
 	// Set the view controller as the window's root view controller and display.
     //self.window.rootViewController = self.navigationController;
+
+	
     [self.window makeKeyAndVisible];
 	
+
 	
-	//First question
-	QAMultiChoiceQuestion *mq = [[QAMultiChoiceQuestion alloc] initWithQuestion:@"Vad betyder TDM?" andAnswer:@"Therapeutic Drug Monitoring"];
-	[mq addChoice:@"Transitional Drug Manipulation" withBoolValue:NO];
-	[mq addChoice:@"Trancendental Diagnosis Map" withBoolValue:NO];
-	NSMutableArray *initarray = [NSMutableArray arrayWithObjects:mq, nil];
-	[initarray retain];
-	[mq release]; //mq is retained in initializer of Brain...
-	
-	//Second question
-	mq = [[QAMultiChoiceQuestion alloc] initWithQuestion:@"Vad betyder HBT?" andAnswer:@"Homo Bi Transexuell"];
-	[mq addChoice:@"Hög basal topografi" withBoolValue:NO];
-	[mq addChoice:@"Hetero Bakgrund Teater" withBoolValue:NO];
-	[initarray addObject:mq];
-	
-	
-	GlobalBrainOO = [[QuizBrainOO alloc] initWithQuestions:initarray];
-	[initarray release];
-	
-	[mq release];
+//	//First question
+//	QAMultiChoiceQuestion *mq = [[QAMultiChoiceQuestion alloc] initWithQuestion:@"Inom farmakologin används ett begrepp för att mäta den terapeutiska nivån av ett läkemedel. Vad betyder TDM?" andAnswer:@"The short answer is Therapeutic Drug Monitoring"];
+//	[mq addChoice:@"The long answer to that question is that TDM stands for Transitional Drug Manipulation. If you look in the book on chapter 6 page 55 you can read more. " withBoolValue:NO];
+//	[mq addChoice:@"Read Illustrated Pharmacolagy 9th ed, chapter 3, pages 55-60." withBoolValue:NO];
+//	NSMutableArray *initarray = [NSMutableArray arrayWithObjects:mq, nil];
+//	[initarray retain];
+//	[mq release]; //mq is retained in initializer of Brain...
+//	
+//	//Second question
+//	mq = [[QAMultiChoiceQuestion alloc] initWithQuestion:@"Vad betyder HBT?" andAnswer:@"Homo Bi Transexuell"];
+//	[mq addChoice:@"Hög basal topografi" withBoolValue:NO];
+//	[mq addChoice:@"Hetero Bakgrund Teater" withBoolValue:NO];
+//	[initarray addObject:mq];
+//	
+//	
+//	GlobalBrainOO = [[QuizBrainOO alloc] initWithQuestions:initarray];
+//	[initarray release];
+//	
+//	[mq release];
 	
     return YES;
 }
 
+
+//- (IBAction) NextButtonPressed:(id) sender {
+//	
+//	[self.viewController nextQuestion];
+//
+//}
+
+
+//
+// FIXME: Remove this code...
+//
 -(void) resetGame {
-	[self.GlobalBrainOO reset];
-	[self.viewController reset];
+	//[self.GlobalBrainOO reset];
+	//[self.viewController reset];
 	
 }
 
@@ -106,8 +144,9 @@
 }
 
 
+
 - (void)dealloc {
-	[GlobalBrainOO release];
+	//[GlobalBrainOO release];
 	[navigationController release];
     [viewController release];
     [window release];

@@ -12,15 +12,29 @@
 @implementation QAMultiChoiceQuestion
 @synthesize Question; // DEBUG: Perhaps better to synthesize questionString = Question? 
 
+- (id) initWithQuestion:(NSString *) q {
+	
+	if (self = [self initWithQuestion:q andAnswer:nil]) {
+		
+	}
+	
+	return self;
+}
+
+
+
 
 - (id) initWithQuestion:(NSString *) q andAnswer:(NSString *) a {
 	
 	if (self = [super init]) {
 		//initialize ivars...
 		Question = [q copy];
-		falseAnswers = [[NSMutableArray alloc] initWithObjects:nil];
-		//add initial answer to the true answer array
-		trueAnswers = [[NSMutableArray alloc] initWithObjects:a, nil];
+		falseAnswers = [[NSMutableArray alloc] init];
+		trueAnswers = [[NSMutableArray alloc] init];
+		
+		if (a != nil) {
+			[trueAnswers addObject:a];
+		}
 	}
 	return self;
 }

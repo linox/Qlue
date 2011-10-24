@@ -15,6 +15,7 @@
 	NSMutableArray *falseAnswers;
 }
 
+- (id) initWithQuestion:(NSString *) q;
 - (id) initWithQuestion:(NSString *) q andAnswer:(NSString *) a;
 - (void) addChoice:(NSString*) aStr withBoolValue:(BOOL) isAnswer;
 - (BOOL) checkAnswer:(NSString*) anAnswer;

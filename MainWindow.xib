@@ -80,6 +80,12 @@
             <object class="IBUINavigationItem" key="IBUINavigationItem" id="514097879">
               <reference key="IBUINavigationBar"/>
               <string key="IBUITitle">Quiz</string>
+              <object class="IBUIBarButtonItem" key="IBUIRightBarButtonItem" id="922311396">
+                <string key="IBUITitle">Next</string>
+                <string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+                <int key="IBUIStyle">1</int>
+                <reference key="IBUINavigationItem" ref="514097879"/>
+              </object>
               <string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
             </object>
             <reference key="IBUIParentViewController" ref="606742769"/>
@@ -128,6 +134,14 @@
             <reference key="destination" ref="606742769"/>
           </object>
           <int key="connectionID">22</int>
+        </object>
+        <object class="IBConnectionRecord">
+          <object class="IBCocoaTouchEventConnection" key="connection">
+            <string key="label">NextButtonPressed:</string>
+            <reference key="source" ref="922311396"/>
+            <reference key="destination" ref="427554174"/>
+          </object>
+          <int key="connectionID">25</int>
         </object>
       </object>
       <object class="IBMutableOrderedSet" key="objectRecords">
@@ -188,7 +202,16 @@
           <object class="IBObjectRecord">
             <int key="objectID">20</int>
             <reference key="object" ref="514097879"/>
+            <object class="NSMutableArray" key="children">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <reference ref="922311396"/>
+            </object>
             <reference key="parent" ref="943309135"/>
+          </object>
+          <object class="IBObjectRecord">
+            <int key="objectID">23</int>
+            <reference key="object" ref="922311396"/>
+            <reference key="parent" ref="514097879"/>
           </object>
         </object>
       </object>
@@ -208,6 +231,7 @@
           <string>16.IBPluginDependency</string>
           <string>18.IBPluginDependency</string>
           <string>18.IBViewBoundsToFrameTransform</string>
+          <string>23.IBPluginDependency</string>
           <string>3.CustomClassName</string>
           <string>3.IBPluginDependency</string>
         </object>
@@ -215,20 +239,21 @@
           <bool key="EncodedWithXMLCoder">YES</bool>
           <string>UIApplication</string>
           <string>UIResponder</string>
-          <string>QuizapViewController</string>
+          <string>QuizapView2Controller</string>
           <string>{{684, 103}, {320, 480}}</string>
           <string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-          <string>{{648, 118}, {320, 480}}</string>
+          <string>{{294, 64}, {320, 480}}</string>
           <string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
           <object class="NSAffineTransform">
             <bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAw+8AAA</bytes>
           </object>
-          <string>{{547, 142}, {320, 480}}</string>
+          <string>{{230, 115}, {320, 480}}</string>
           <string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
           <string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
           <object class="NSAffineTransform">
             <bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAQAAAAA</bytes>
           </object>
+          <string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
           <string>QuizapAppDelegate</string>
           <string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
         </object>
@@ -249,7 +274,7 @@
         </object>
       </object>
       <nil key="sourceID"/>
-      <int key="maxID">22</int>
+      <int key="maxID">25</int>
     </object>
     <object class="IBClassDescriber" key="IBDocument.Classes">
       <object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -310,17 +335,52 @@
           </object>
         </object>
         <object class="IBPartialClassDescription">
-          <string key="className">QuizapViewController</string>
+          <string key="className">QuizapView2Controller</string>
           <string key="superclassName">UIViewController</string>
           <object class="NSMutableDictionary" key="actions">
-            <string key="NS.key.0">ButtonPressed:</string>
-            <string key="NS.object.0">id</string>
+            <bool key="EncodedWithXMLCoder">YES</bool>
+            <object class="NSArray" key="dict.sortedKeys">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <string>ButtonPressed:</string>
+              <string>NextButtonPressed:</string>
+              <string>checkCollision:</string>
+              <string>showPopTipOnView:</string>
+            </object>
+            <object class="NSMutableArray" key="dict.values">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <string>id</string>
+              <string>id</string>
+              <string>id</string>
+              <string>id</string>
+            </object>
           </object>
           <object class="NSMutableDictionary" key="actionInfosByName">
-            <string key="NS.key.0">ButtonPressed:</string>
-            <object class="IBActionInfo" key="NS.object.0">
-              <string key="name">ButtonPressed:</string>
-              <string key="candidateClassName">id</string>
+            <bool key="EncodedWithXMLCoder">YES</bool>
+            <object class="NSArray" key="dict.sortedKeys">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <string>ButtonPressed:</string>
+              <string>NextButtonPressed:</string>
+              <string>checkCollision:</string>
+              <string>showPopTipOnView:</string>
+            </object>
+            <object class="NSMutableArray" key="dict.values">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <object class="IBActionInfo">
+                <string key="name">ButtonPressed:</string>
+                <string key="candidateClassName">id</string>
+              </object>
+              <object class="IBActionInfo">
+                <string key="name">NextButtonPressed:</string>
+                <string key="candidateClassName">id</string>
+              </object>
+              <object class="IBActionInfo">
+                <string key="name">checkCollision:</string>
+                <string key="candidateClassName">id</string>
+              </object>
+              <object class="IBActionInfo">
+                <string key="name">showPopTipOnView:</string>
+                <string key="candidateClassName">id</string>
+              </object>
             </object>
           </object>
           <object class="NSMutableDictionary" key="outlets">
@@ -331,12 +391,14 @@
               <string>ChoiceButton2</string>
               <string>ChoiceButton3</string>
               <string>QLabel</string>
+              <string>hintLabel</string>
             </object>
             <object class="NSMutableArray" key="dict.values">
               <bool key="EncodedWithXMLCoder">YES</bool>
               <string>UIButton</string>
               <string>UIButton</string>
               <string>UIButton</string>
+              <string>UILabel</string>
               <string>UILabel</string>
             </object>
           </object>
@@ -348,6 +410,7 @@
               <string>ChoiceButton2</string>
               <string>ChoiceButton3</string>
               <string>QLabel</string>
+              <string>hintLabel</string>
             </object>
             <object class="NSMutableArray" key="dict.values">
               <bool key="EncodedWithXMLCoder">YES</bool>
@@ -365,6 +428,117 @@
               </object>
               <object class="IBToOneOutletInfo">
                 <string key="name">QLabel</string>
+                <string key="candidateClassName">UILabel</string>
+              </object>
+              <object class="IBToOneOutletInfo">
+                <string key="name">hintLabel</string>
+                <string key="candidateClassName">UILabel</string>
+              </object>
+            </object>
+          </object>
+          <object class="IBClassDescriptionSource" key="sourceIdentifier">
+            <string key="majorKey">IBProjectSource</string>
+            <string key="minorKey">Classes/QuizapView2Controller.h</string>
+          </object>
+        </object>
+        <object class="IBPartialClassDescription">
+          <string key="className">QuizapViewController</string>
+          <string key="superclassName">UIViewController</string>
+          <object class="NSMutableDictionary" key="actions">
+            <bool key="EncodedWithXMLCoder">YES</bool>
+            <object class="NSArray" key="dict.sortedKeys">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <string>ButtonPressed:</string>
+              <string>NextButtonPressed:</string>
+              <string>checkCollision:</string>
+              <string>showPopTipOnView:</string>
+            </object>
+            <object class="NSMutableArray" key="dict.values">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <string>id</string>
+              <string>id</string>
+              <string>id</string>
+              <string>id</string>
+            </object>
+          </object>
+          <object class="NSMutableDictionary" key="actionInfosByName">
+            <bool key="EncodedWithXMLCoder">YES</bool>
+            <object class="NSArray" key="dict.sortedKeys">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <string>ButtonPressed:</string>
+              <string>NextButtonPressed:</string>
+              <string>checkCollision:</string>
+              <string>showPopTipOnView:</string>
+            </object>
+            <object class="NSMutableArray" key="dict.values">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <object class="IBActionInfo">
+                <string key="name">ButtonPressed:</string>
+                <string key="candidateClassName">id</string>
+              </object>
+              <object class="IBActionInfo">
+                <string key="name">NextButtonPressed:</string>
+                <string key="candidateClassName">id</string>
+              </object>
+              <object class="IBActionInfo">
+                <string key="name">checkCollision:</string>
+                <string key="candidateClassName">id</string>
+              </object>
+              <object class="IBActionInfo">
+                <string key="name">showPopTipOnView:</string>
+                <string key="candidateClassName">id</string>
+              </object>
+            </object>
+          </object>
+          <object class="NSMutableDictionary" key="outlets">
+            <bool key="EncodedWithXMLCoder">YES</bool>
+            <object class="NSArray" key="dict.sortedKeys">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <string>ChoiceButton1</string>
+              <string>ChoiceButton2</string>
+              <string>ChoiceButton3</string>
+              <string>QLabel</string>
+              <string>hintLabel</string>
+            </object>
+            <object class="NSMutableArray" key="dict.values">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <string>UIButton</string>
+              <string>UIButton</string>
+              <string>UIButton</string>
+              <string>UILabel</string>
+              <string>UILabel</string>
+            </object>
+          </object>
+          <object class="NSMutableDictionary" key="toOneOutletInfosByName">
+            <bool key="EncodedWithXMLCoder">YES</bool>
+            <object class="NSArray" key="dict.sortedKeys">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <string>ChoiceButton1</string>
+              <string>ChoiceButton2</string>
+              <string>ChoiceButton3</string>
+              <string>QLabel</string>
+              <string>hintLabel</string>
+            </object>
+            <object class="NSMutableArray" key="dict.values">
+              <bool key="EncodedWithXMLCoder">YES</bool>
+              <object class="IBToOneOutletInfo">
+                <string key="name">ChoiceButton1</string>
+                <string key="candidateClassName">UIButton</string>
+              </object>
+              <object class="IBToOneOutletInfo">
+                <string key="name">ChoiceButton2</string>
+                <string key="candidateClassName">UIButton</string>
+              </object>
+              <object class="IBToOneOutletInfo">
+                <string key="name">ChoiceButton3</string>
+                <string key="candidateClassName">UIButton</string>
+              </object>
+              <object class="IBToOneOutletInfo">
+                <string key="name">QLabel</string>
+                <string key="candidateClassName">UILabel</string>
+              </object>
+              <object class="IBToOneOutletInfo">
+                <string key="name">hintLabel</string>
                 <string key="candidateClassName">UILabel</string>
               </object>
             </object>

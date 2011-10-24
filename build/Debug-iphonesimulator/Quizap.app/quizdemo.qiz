@@ -1,0 +1,32 @@
+{
+    "Quiz": {
+        "QuizTitle": "Demo quiz - play me first!",
+		"Questions": [{
+            "QuestionTitle": "What is 3+3?",
+			"Answers": [{
+                    "AnswerTitle": "3+3 is equal to 6",
+					"True": "YES"
+				},{
+
+                    "AnswerTitle": "The answer is 8",
+					"True": "NO"
+                },{
+                    "AnswerTitle": "The answer is 7",
+					"True": "NO"
+                }
+            ]
+			
+        },{
+			"QuestionTitle": "What is the capital of Sweden?",
+			"Answers": [{
+                    "AnswerTitle": "The answer is Stockholm.",
+					"True": "YES"
+				},{
+                    "AnswerTitle": "The capital of Sweden is Norway.",
+					"True": "NO"
+                }
+            ]
+		
+		}]
+    }
+}

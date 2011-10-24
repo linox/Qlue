@@ -7,7 +7,7 @@
 //
 #import "QuizapAppDelegate.h"
 #import "HighscoreViewController.h"
-
+#import "QuizStore.h"
 
 @implementation HighscoreViewController
 @synthesize correctLabel,wrongLabel;
@@ -35,25 +35,53 @@
 }
 
 - (void) refresh {
-	QuizapAppDelegate *appDelegate = 
-	[[UIApplication sharedApplication] delegate];
+	QuizStore *qs = [QuizStore defaultStore];
+	QuizBrainOO *b = [[qs allQuizes] objectAtIndex:qs.currentQuizIndex];
 	
-	self.correctLabel.text = [NSString stringWithFormat:@"Antal korrekta svar: %d", 
-							  appDelegate.GlobalBrainOO.correctAnswers];
+	int theScore = [b.getScore intValue];
+
+	if (theScore > 0) {
+		self.correctLabel.text = [NSString stringWithFormat:@"Correct answers: %d", 
+							  theScore];
+	} else {
+		self.correctLabel.text = @"No correct answers!";
+	}
+
 	
-	self.wrongLabel.text = [NSString stringWithFormat:@"Antal felaktiga svar: %d", 
-							appDelegate.GlobalBrainOO.wrongAnswers];
+//	self.correctLabel.text = [NSString stringWithFormat:@"Antal korrekta svar: %d", 
+//							  appDelegate.GlobalBrainOO.correctAnswers];
+//	
+//	self.wrongLabel.text = [NSString stringWithFormat:@"Antal felaktiga svar: %d", 
+//							appDelegate.GlobalBrainOO.wrongAnswers];
 }
 
 
 - (IBAction) clickResetScore:(id) sender {
-	QuizapAppDelegate *appDelegate = 
-	[[UIApplication sharedApplication] delegate];
+	QuizStore *qs = [QuizStore defaultStore];
 	
-	[appDelegate resetGame];
+	// Reset the brain...
+	[[[qs allQuizes] objectAtIndex:qs.currentQuizIndex] reset];
+
 	NSLog(@"Hello from clickReset!");
 	
 	[self.navigationController popToRootViewControllerAnimated:YES];
+}
+
+- (IBAction) saveScore:(id) sender {
+	
+
+	QuizStore *qs = [QuizStore defaultStore]; 
+		
+	QuizBrainOO *b = [[qs allQuizes] objectAtIndex:qs.currentQuizIndex];
+	
+	b.savedScore = [b.getScore intValue];
+	
+	[qs saveCurrentQuiz];
+	
+	//[b reset]; // this does not reset the savedScore...
+
+	//[self.navigationController popToRootViewControllerAnimated:YES];
+	
 }
 
 /*

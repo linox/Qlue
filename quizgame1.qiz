@@ -1,0 +1,404 @@
+{
+    "Quiz": {
+        "Depends": {
+            "quizdemo": "2"
+        },
+        "ID": "quizgame1",
+        "Questions": [
+            {
+                "QuestionTitle": "Hjärnan består av hjärnparenkym, blod och liqvor, hur är fördelningen av dessa hos den friske individen?",
+                "Hint": "Skallens ben bildar (tillsammans) ett oeftergivligt rum. Innehållet består av hjärnparenkym (85 %), 150 ml likvor (5 – 10 %) och cirka 75 ml intravaskulärt blod (5 – 10 %). Summan av de intrakraniella volymerna är konstant inklusive ev. expansiviteter.",
+                "Ref": "http://www.lio.se/PM-medicinska-o-vardadm/PM-dokument/Neurokirurgiska-kliniken-Externa-PM/Regionala-riktlinjer-for-Traumatisk-HjarnSkada-THS/",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Hjärnparenkym 65%, blod 20 % &amp; liqvor 15%",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Hjärnparenkym 50%, blod 25% &amp; liqvor 25%",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Hjärnparenkym 85%, blod 5-10% &amp; liqvor 5-10%",
+                        "True": "YES"
+                    }
+                ]
+            },
+            {
+                "QuestionTitle": "Cerebralablodflödet (CBF) är normalt ca 50ml/min/100g, vid vilken nivå av blodflödet inträffar celldöd?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "ca 17ml/min/100g",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "ca 30ml/min/100g",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "ca 25ml/min/100g",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Det intrakraniella rummets voym är konstant och en expansivitet (ex blödning) kan endast få plats på bekostnad av de volymer (liqvor, blod hjärnvävnad)som normalt fyller ut det intrakraniella rummet. Vad beskriver den sk tryck volym kurvan?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Hur det intrakraniella trycket påverkas när en intrakraniell expansivitet ökar i volym och möjligheterna för ytterligare volymkompensation successivt minskar",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Hur det intrakraniella trycket hela tiden bibehålls på en normal nivå trots fortsatt ökning av en intrakraniell exapnsivitet.",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Hur det intrakraniella trycket reduceras när en intrakrnaiell expansivitet är konstant.",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Hjärnans autoregulation; CBF är i det närmaste konstant vid medelartärtryck (MAP) mellan 60-160mmHg men påverkas av flertalet faktorer. Markera de faktorer som påverkar CBF.",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Läkemedel",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Hypertoni",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Ålder",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Blodet koldioxidhalt",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Hypovolemi",
+                        "True": "YES"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Cerebralablodflödet (CBF) är normalt ca 50ml/min/100g, vid vilken nivå av blodflödet inträffar celldöd?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "ca 17ml/min/100g",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "ca 30ml/min/100g",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "ca 25ml/min/100g",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Vid t ex blödning, infarkt eller tumör tillväxt i CNS ökar det intrakraniellatrycket (ICP). Vilka är kroppens kompensationsmekanismer för att bibehålla adekvat blodcirkualtion till hjärnan vid expansiviteter i hjärnan?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Minskat CBF",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Minskad likvorabsorbtion.",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Ökad likvorabsorbtion.",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Förskjutning av likvor.",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Minskad produktion av likvor.",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Minskad ämnesomsättning.",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Ökat CBF.",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Varför kan en kraftig överventilation (hyperventilering) resultera i cerebral hypoxi?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Hypokapni ökar hjärnans blodföde och förskjuter Hb O2 – dissociationskurvan till höger",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Hyperkapni ger ökad sympatikus aktivitet och ökad hjärtminutvolym",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Hypokapni reducerar hjärnans blodflöde och förskjuter Hb O2 – dissociationskurvan till vänster.",
+                        "True": "NO"
+                    }
+                ]
+            },{
+                "QuestionTitle": "Vad innebär den sk Chushingreflexen?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Lillhjärnstonsillerna pressas ned genom foramen magnum, tryckförändringarna påverkar medulla oblongata och patienten får ett stigande blodtryck och en sjunkande puls.",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Lillhjärnstonsillerna pressas ned genom medulla oblongata, tryckförändringarna påverkar foramen magnum och patienten får ett stigande sjunkande blodtryck och en sjunkande puls.",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Lillhjärnstonsillerna pressas ned genom tentorie slitesen tryckförändringarna påverkar medulla oblongata och patinten får ett stigande blodtryck och en stigande puls.",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Medvetandegraden avgörs genom att studera reaktioner på smärtstiumuli, var är lämpligt att smärtstimulera en medvetslöspatient?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Under fotsulan - Babinski",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "n. supraorbitalis",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "nagelbädd",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Neurologstatus kan bland annat bedömmas utifrån olika skalor, Glacow coma score (GCS) är en skala som används både internationellt och nationellt. En patient som tittar på tilltal, medverkar och är osammanhängade i sitt tal, vilket GCS värde får den patienten?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "14",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "12",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "11",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "En annan skala är RLS-85 vad motsvarar; Kontaktbar vid kraftig stimuli (ex avvärjer smärta, följer med blicken)",
+                "Answers": [
+                    {
+                        "AnswerTitle": "4",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "3",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "2",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Cerebralablodflödet (CBF) är normalt ca 50ml/min/100g, vid vilken nivå av blodflödet inträffar celldöd?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "ca 17ml/min/100g",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "ca 30ml/min/100g",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "ca 25ml/min/100g",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Vilka specifika mål ska eftersträvas i vården av en akut neurologiskt sjuk patient?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Blodsocker 5-8mmol/l",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Normoventilation",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Cerebralt perfusionstryck &gt;55mmHg",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Medelartärtryck &lt; 60mmHg",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "PCO2 &gt; 6 kpa",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Höjd huvudända 20-30 grader",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Hyperton intravenösvätska",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Medelartärtryck &gt;70mmHg",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Normovolemi",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Vid status epileptikus ökar risken för hjärnskador och mortalitet påtagligt om kramperna pågår &gt;60 min, vad är bland annat orsaken till det?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Hypoxi i kombination med ökad muskelaktivitet medför att koldioxid accumuleras i vävnaden, pH sjunker och en laktoacidos bildas.",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Rabdomyolysen som kan uppkomma vid muskelsöderfallet orsakar proppar cerebralt ",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Hyperoxymi i kombination med ökad muskelaktivitet medför att koldioxid elimineras från vävnaden för snabbt och vävnaden, pH ökar och en laktoalkalos. ",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Kroppens temperatur regleras normalt via hypthalamus, vid en spinal skada kan patientens kroppstemperatur förändras. Vad är vanligt förekommande hos en patient med akut spinal skada?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Hypotermi",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Hypertermi",
+                        "True": "NO"
+                    }
+                ]
+            },    {
+                "QuestionTitle": "Varför utvecklas neurogen chock vid traumatiska ryggmärgsskador och vilka symtom kan patienter uppvisa?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Patient är kall perifert och har en hypotoni och bradycardi pågrund av parasympaticusektomi",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Patient är varm och dilaterad perfiert och har hypotoni och bradycardi pågrund av sympatekomi",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Patient är kall perifert och dilaterad centralt samt har hyperoni och tachycardi pågrund av sympatiskusstimuli",
+                        "True": "NO"
+                    }
+                ]
+            }, {
+                "QuestionTitle": "Vid vilken nivå finns risk för andninsgpåverkan vid en traumatisk ryggmärgsskada?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Th12-",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "C1-C4",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "C7-Th4",
+                        "True": "NO"
+                    }
+                ]
+            }, {
+                "QuestionTitle": "En patient med tvärsnittslesion uppvisar följande symtom; ingen känsel nedanför nyckelbenen, känner beröring skuldror, kan böja armar, har ingen finmotorik i fingrar. Ingen bålstabilitet och ingen rörelse i benen. Pfrenicus nerven intakt, dålig intercostal muskulatur. På vilken nivå sitter troligen patientens cervikala skada?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "C8",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "C5",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "C1-2",
+                        "True": "NO"
+                    }
+                ]
+            },         {
+                "QuestionTitle": "Det är inte ovanligt att patienter som insjuknar med generella kramper (epilepsi- ep) skriker initialt och har har en rodnande ansiktsfärg i början av det tonisk-kloniska ep anfallet. Vad orsakar skriket och den röda ansiktsfärgen?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Ett ökat tryck i thorax leder till venös stas (rodnad i ansikte), krampen i buk- och bröstkorgs muskulatur leder till att kvarvarande luft i lungorna pressas upp mot slutna stämband (skrik).",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Ett minskat tryck i thorax leder till minskad venös stas (rodnad i ansikte), krampen i buk- och bröstkorgs muskulatur leder till att kvarvarande luft i lungorna pressas upp mot öppna stämband (skrik). ",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "Ett ökat tryck i thorax leder till förbättrat venöst återflöde (rodnad i ansikte), de avslappade musklerna i buk- och bröstkorgs leder till att kvarvarande luft i lungorna flödar upp mot slutna stämband (skrik). ",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Vilka påståenden är korrekta gällande omhändertagandet av patienter med generella krampanfall?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Se till att patienten har fria luftvägar",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Sätt PVK på patienter som får anfall även om anfallet klingar av av sig själv.",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Placera något hårt i munnen för att patienten ska slippa bita sig i tungan",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "Håll fast patienten till kramperna slutat",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "I den postiktala fasen är patienten pigg och mobilisering kan starta på engång",
+                        "True": "NO"
+                    }
+                ]
+            },            {
+                "QuestionTitle": "Gällande traumastiska ryggmärgskador, vid vilken skadenivå ökar risken för neurogen chock?",
+                "Answers": [
+                    {
+                        "AnswerTitle": "Th7-L1",
+                        "True": "NO"
+                    },
+                    {
+                        "AnswerTitle": "C1-Th6",
+                        "True": "YES"
+                    },
+                    {
+                        "AnswerTitle": "L2-",
+                        "True": "NO"
+                    }
+                ]
+            }
+        ],
+        "QuizTitle": "Critical Care I",
+        "Score": "2"
+    }
+}

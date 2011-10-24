@@ -10,21 +10,22 @@
 #import "QuizBrainOO.h"
 #import "QAMultiChoiceQuestion.h"
 #import "HighscoreViewController.h"
+#import "ContainerFrame.h"
+#import "../CMPopTipView/CMPopTipView.h"
 
-@interface QuizapViewController : UIViewController {
+@interface QuizapViewController : UIViewController  <CMPopTipViewDelegate> {
 	HighscoreViewController *highScore;
-	//QuizBrain *Brain;
+
 	QuizBrainOO *BrainOO;
 
 	IBOutlet UILabel *QLabel;
-	IBOutlet UIButton *ChoiceButton1;//FIXME: remove these static buttons
-	IBOutlet UIButton *ChoiceButton2;
-	IBOutlet UIButton *ChoiceButton3;
-	NSMutableArray *ChoiceButtons;
+	UILabel *hintLabel;
 	
-	//NSMutableArray *buttons;
+	NSMutableArray *ChoiceButtons; // FIXME: come up with a better name...
 	
-	//NSInteger pos;
+	NSMutableArray *Containers; // Array of containers present in the view
+
+	CMPopTipView *popTipView;
 }
 
 
@@ -32,10 +33,16 @@
 - (void) nextQuestion;
 - (void) showHighScore;
 - (void) reset; // FIXME: rename to something better, like setup perhaps...
+- (void) checkAnyCollision; // checks to see if view objects overlap...
+- (void) checkCollision:(id) sender;
 
+- (IBAction) showPopTipOnView:(id)sender; // FIXME: Rename to ButtonDown or something
 - (IBAction) ButtonPressed:(id) sender;
+- (IBAction) NextButtonPressed:(id) sender;
+
 @property (nonatomic,retain) HighscoreViewController *highScore;
-@property (nonatomic,retain) IBOutlet UILabel *QLabel;
+@property (nonatomic,retain) IBOutlet UILabel *QLabel, *hintLabel;
 @property (nonatomic,retain) IBOutlet UIButton *ChoiceButton1, *ChoiceButton2, *ChoiceButton3;
+@property (nonatomic,retain) CMPopTipView *currentPopTipViewTarget;
 @end
 

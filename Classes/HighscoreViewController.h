@@ -18,6 +18,8 @@
 - (void) refresh;
 
 - (IBAction) clickResetScore:(id) sender;
+- (IBAction) saveScore:(id) sender;
+
 //Fixme: should property be assign or retain?
 @property (nonatomic,retain) IBOutlet UILabel *correctLabel;
 @property (nonatomic,retain) IBOutlet UILabel *wrongLabel;

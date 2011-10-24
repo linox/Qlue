@@ -16,7 +16,7 @@
     QuizapViewController *viewController;
 	UINavigationController *navigationController;
 
-	QuizBrainOO *GlobalBrainOO;
+//	QuizBrainOO *GlobalBrainOO;
 	
 	
 }
@@ -25,6 +25,9 @@
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet QuizapViewController *viewController;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
-@property (nonatomic, readonly) QuizBrainOO *GlobalBrainOO;
+//@property (nonatomic, retain) QuizBrainOO *GlobalBrainOO;
+
+//- (IBAction) NextButtonPressed:(id) sender;
+
 @end
 

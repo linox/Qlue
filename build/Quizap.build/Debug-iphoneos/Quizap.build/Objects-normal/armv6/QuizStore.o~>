@@ -1,0 +1,4 @@
+/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizStore.m:16: error: no declaration of property 'currentQuizIndex' found in the interface
+/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizStore.m: In function '-[QuizStore loadQuizFromFile:]':
+/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizStore.m:128: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:383)
+/Users/mdahlgrengadd/Documents/Developer/Qlue/Classes/QuizStore.m:134: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Users/mdahlgrengadd/Xcode3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:383)
